@@ -1,0 +1,4 @@
+anti.py:4:23: ANN401 Dynamically typed expressions (typing.Any) are disallowed in `raw`
+anti.py:4:31: ANN401 Dynamically typed expressions (typing.Any) are disallowed in `parse_amount`
+anti.py:7:12: BLE001 Do not catch blind exception: `Exception`
+Found 3 errors.

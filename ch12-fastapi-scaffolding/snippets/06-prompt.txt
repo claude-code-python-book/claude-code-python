@@ -1,0 +1,7 @@
+Write src/orders/schemas.py with Pydantic v2. OrderCreate is the POST
+body: currency (GBP, EUR or USD) and 1 to 50 lines. A line has a SKU
+(capitals, digits and dashes, 3 to 20 chars), a quantity from 1 to 100
+and a unit price as Decimal with 2 places, above zero. Reject unknown
+fields and an order that lists the same SKU twice. The customer is NOT
+in the body; it comes from the token. OrderRead is the response, built
+from our domain objects, with a computed total.

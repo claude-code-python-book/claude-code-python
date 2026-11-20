@@ -1,0 +1,7 @@
+1. uvicorn --host 127.0.0.1 inside the container, request from the host:
+   ConnectionResetError: [Errno 104] Connection reset by peer
+2. --read-only root filesystem, the app writes to /tmp:
+   OSError: [Errno 30] Read-only file system: '/tmp/upload.csv'
+   with --tmpfs /tmp: written
+3. the venv copied onto a base image without the same Python:
+   exec /app/.venv/bin/uvicorn: no such file or directory

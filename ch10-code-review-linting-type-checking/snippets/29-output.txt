@@ -1,0 +1,4 @@
+src/invoicer/billing_run.py:10:5: C901 `run_billing` is too complex (31 > 10)
+src/invoicer/billing_run.py:10:5: PLR0912 Too many branches (33 > 12)
+src/invoicer/billing_run.py:10:5: PLR0915 Too many statements (114 > 50)
+Found 3 errors.

@@ -1,0 +1,4 @@
+..x.......................                                               [100%]
+=========================== short test summary info ============================
+XFAIL tests/test_late_fee.py::test_late_fee_on_a_100_invoice[day-60] - docstring says one period at day 60; code: two
+25 passed, 1 xfailed in 0.30s

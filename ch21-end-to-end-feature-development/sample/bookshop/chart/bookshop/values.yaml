@@ -1,0 +1,19 @@
+image:
+  repository: bookshop
+  tag: ""            # defaults to the chart's appVersion
+  pullPolicy: IfNotPresent
+
+web:
+  replicas: 2
+  resources:
+    requests: { cpu: 250m, memory: 192Mi }
+    limits: { memory: 256Mi }
+
+worker:
+  replicas: 1
+  resources:
+    requests: { cpu: 100m, memory: 256Mi }
+    limits: { memory: 512Mi }
+
+redisUrl: redis://redis:6379/0
+existingSecret: bookshop   # must contain DATABASE_URL; created outside the chart

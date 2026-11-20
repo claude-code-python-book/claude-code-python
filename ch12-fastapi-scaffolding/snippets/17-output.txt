@@ -1,0 +1,5 @@
+draft_router.py:12:15: FAST003 Parameter `order_id` appears in route path, but not in `get_order` signature
+draft_router.py:12:28: FAST001 FastAPI route with redundant `response_model` argument
+draft_router.py:13:24: FAST002 FastAPI dependency without `Annotated`
+Found 3 errors.
+No fixes available (3 hidden fixes can be enabled with the `--unsafe-fixes` option).

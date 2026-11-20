@@ -1,0 +1,8 @@
+ALTER TABLE loyalty_accounts ADD CONSTRAINT ck_loyalty_accounts_tier_not_null CHECK (tier IS NOT NULL) NOT VALID;
+ALTER TABLE loyalty_accounts VALIDATE CONSTRAINT ck_loyalty_accounts_tier_not_null;
+ALTER TABLE loyalty_accounts ADD CONSTRAINT ck_loyalty_accounts_tier_is_known CHECK (tier IN ('bronze', 'silver', 'gold')) NOT VALID;
+ALTER TABLE loyalty_accounts VALIDATE CONSTRAINT ck_loyalty_accounts_tier_is_known;
+ALTER TABLE loyalty_accounts ALTER COLUMN tier SET NOT NULL;
+DEBUG:  existing constraints on column "loyalty_accounts.tier" are sufficient to prove that it does not contain nulls
+ALTER TABLE loyalty_accounts ALTER COLUMN tier SET DEFAULT 'bronze';
+ALTER TABLE loyalty_accounts DROP CONSTRAINT ck_loyalty_accounts_tier_not_null;

@@ -1,0 +1,6 @@
+Find the testing gaps in <package>. Start with uv run pytest
+--cov=<package> --cov-report=term-missing and note missed lines and
+partial branches. Then, for each condition, constant and boundary in
+<modules>, say which test would fail if it changed. Before writing any
+test, give me the gaps ranked by risk, one line each, and mark anything
+that needs a product decision.

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "acme-tools",
+  "description": "Claude Code plugins maintained by Acme's developer-experience team",
+  "owner": { "name": "Acme DevEx", "email": "devex@acme.example" },
+  "plugins": [
+    {
+      "name": "acme-dev",
+      "source": "./plugins/acme-dev",
+      "description": "Team workflows: implement a ticket, prepare a PR, review a diff"
+    }
+  ]
+}

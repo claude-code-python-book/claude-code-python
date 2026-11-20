@@ -1,0 +1,6 @@
+Write src/orders/api/orders.py: an APIRouter with prefix /orders. POST
+returns 201 and a Location header. GET / is paged with limit (1-100,
+default 20) and offset, and filters by ?status=. Every operation gets a
+summary, a return type, and `responses` for each error it can return.
+Get the user and the service from the Annotated aliases in deps.py.
+Path operations only translate between HTTP and OrderService calls.

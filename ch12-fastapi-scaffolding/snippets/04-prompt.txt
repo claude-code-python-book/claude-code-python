@@ -1,0 +1,7 @@
+We're building orders-service, a FastAPI API for the shop. Endpoints:
+POST /auth/token, POST /orders, GET /orders, GET /orders/{id}, and
+POST /orders/{id}/pay and /cancel. Plan the package layout before any
+code: Pydantic schemas, one APIRouter per resource, dependencies in
+deps.py, a service with no FastAPI imports, and a repository Protocol
+with an in-memory implementation (we add SQLAlchemy later). Customers
+only see their own orders. Use the FastAPI skill for current patterns.

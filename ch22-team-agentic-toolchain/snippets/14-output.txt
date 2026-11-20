@@ -1,0 +1,10 @@
+$ claude plugin validate ./plugins/acme-dev
+Validating plugin manifest: ./plugins/acme-dev/.claude-plugin/plugin.json
+‼ Found 2 plugin directory warnings:
+  > .claude-plugin/plugin.json icon: No icon (ICON_MISSING). …
+  > .claude-plugin/plugin.json privacyPolicyUrl: No privacy policy URL (PRIVACY_URL_MISSING). …
+√ Validation passed
+
+$ claude plugin validate .
+Validating marketplace manifest: ./.claude-plugin/marketplace.json
+√ Validation passed

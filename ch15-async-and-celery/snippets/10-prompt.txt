@@ -1,0 +1,4 @@
+Review every async def in notify/ for blocking calls: sync HTTP, file
+I/O, time.sleep, subprocess, sync database or SMTP clients, and CPU-heavy
+loops. For each one, say whether to use an async library or
+asyncio.to_thread. Don't change code yet.

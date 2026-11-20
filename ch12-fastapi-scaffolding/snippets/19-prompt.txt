@@ -1,0 +1,6 @@
+Write OrderService in service.py. It takes a repository Protocol and a
+clock. Orders move pending -> paid -> shipped, and pending or paid
+orders can be cancelled; anything else raises InvalidTransition. A
+customer asking for someone else's order gets OrderNotFound, exactly as
+if it didn't exist. No FastAPI imports. Then write service tests that
+use the in-memory repository and no HTTP.

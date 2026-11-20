@@ -1,0 +1,9 @@
+FAIL: helper
+  error:   'name' may use only lowercase letters, numbers and single hyphens, and cannot start or end with a hyphen
+  error:   'name' (Test-Helper) must match the folder name (helper)
+  error:   'description' cannot contain XML tags
+  error:   SKILL.md mentions references/guide.md, which does not exist
+  warning: 'description' should say when to use the skill ('Use when ...')
+  warning: write 'description' in the third person
+  warning: Claude Code-only fields ['argument-hint']: claude.ai and the Skills API reject them
+  warning: use forward slashes in file paths

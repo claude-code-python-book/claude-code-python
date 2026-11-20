@@ -1,0 +1,4 @@
+iterrows loop       422.4 ms
+apply(axis=1)        73.5 ms
+vectorized            0.1 ms
+19,811 rows; all three agree: True

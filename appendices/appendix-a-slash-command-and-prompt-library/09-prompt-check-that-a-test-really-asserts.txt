@@ -1,0 +1,2 @@
+In <function>, temporarily change <a constant or condition> and run
+<test file>. Show me which tests fail, then undo the change.

@@ -1,0 +1,5 @@
+$ validate k8s/*.yaml
+ConfigMap catalog, Deployment catalog, Job catalog-migrate-1-0-0, Secret catalog, Service catalog, Deployment catalog-worker
+valid against Kubernetes v1.37.2 schemas (strict)
+$ validate deployment.yaml   # with readinessProbe misspelled
+deployment.yaml Deployment: spec/template/spec/containers/0: Additional properties are not allowed ('readinesProbe' was unexpected)

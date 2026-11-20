@@ -1,0 +1,9 @@
+billing/
+├── CLAUDE.md                      # rules for the whole repository
+├── .claude/
+│   ├── settings.json
+│   └── rules/
+│       └── scripts-and-export.md  # loads only for matching paths
+├── packages/invoicer/CLAUDE.md    # Decimal, rounding, golden files
+├── apps/api/CLAUDE.md             # FastAPI: uvicorn, TestClient, settings
+└── notebooks/CLAUDE.md            # sample data only, clear outputs

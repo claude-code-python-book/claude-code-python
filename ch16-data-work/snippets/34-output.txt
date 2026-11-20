@@ -1,0 +1,7 @@
+rejected for
+region                 63
+quantity               48
+unit_price             45
+order_date             25
+order_id               12
+region + unit_price     2

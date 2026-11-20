@@ -1,0 +1,21 @@
+bookings-site/
+├── manage.py
+├── config/
+│   ├── settings/      base.py, dev.py, test.py, prod.py
+│   └── urls.py        /admin/ and /api/
+├── bookings/
+│   ├── rules.py       the booking rules: plain Python
+│   ├── models.py      Room, Booking, database constraints
+│   ├── admin.py
+│   ├── serializers.py
+│   ├── permissions.py
+│   ├── views.py       RoomViewSet, BookingViewSet
+│   ├── urls.py        the DRF router
+│   ├── notifications.py
+│   ├── management/commands/purge_cancelled.py
+│   └── migrations/0001_btree_gist.py
+├── tests/
+│   ├── test_rules.py              runs without Django
+│   ├── test_guard_migrations.py   runs without Django
+│   └── django/                    pytest-django + Factory Boy
+└── .claude/  settings.json, hooks/guard_migrations.py

@@ -1,0 +1,41 @@
+[project]
+name = "acme-broker"
+version = "1.0.0"
+description = "Credential broker: a remote MCP server that acts as each developer"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp>=2.3,<3",          # MCPServer, bearer auth, streamable HTTP
+    "httpx2>=2.10",         # installed with mcp; used for upstream calls
+    "pyjwt[crypto]>=2.10",
+    "cryptography>=45",
+    "uvicorn>=0.31",
+]
+
+[dependency-groups]
+dev = ["pytest>=9", "anyio>=4.9", "ruff>=0.16", "mypy>=2.3"]
+
+[build-system]
+requires = ["uv_build>=0.11,<0.14"]
+build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "tests"]
+testpaths = ["tests"]
+filterwarnings = ["error"]
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "S", "ASYNC", "RUF"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S101", "S105", "S106", "S603"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["acme_broker"]
+known-local-folder = ["conftest", "tracker_stub"]
+
+[tool.mypy]
+strict = true
+files = ["src"]

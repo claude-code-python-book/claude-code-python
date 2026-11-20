@@ -1,0 +1,18 @@
+{
+  "name": "acme-dev",
+  "displayName": "Acme Dev",
+  "version": "1.0.0",
+  "description": "Implement a tracker ticket, prepare a pull request, and review a diff the Acme way",
+  "author": { "name": "Acme DevEx", "email": "devex@acme.example" },
+  "repository": "https://github.com/acme/claude-toolchain",
+  "license": "MIT",
+  "keywords": ["workflow", "tracker", "review"],
+  "userConfig": {
+    "broker_url": {
+      "type": "string",
+      "title": "Broker URL",
+      "description": "MCP endpoint of the Acme credential broker",
+      "default": "https://mcp.acme.example/mcp"
+    }
+  }
+}

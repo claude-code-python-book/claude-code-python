@@ -1,0 +1,3 @@
+src/invoicer/reminders.py:31: error: Returning Any from function declared to return "tuple[int, str] | None"  [no-any-return]
+src/invoicer/reminders.py:47: error: Item "None" of "str | None" has no attribute "strip"  [union-attr]
+Found 2 errors in 1 file (checked 1 source file)

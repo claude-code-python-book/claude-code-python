@@ -1,0 +1,2 @@
+testpaths = ["tests", "src", "README.md"]
+addopts = ["--strict-markers", "--doctest-modules", "--doctest-glob=README.md"]

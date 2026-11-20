@@ -1,0 +1,9 @@
+{
+  "description": "The converted amount, rounded half-up to cents.",
+  "examples": [
+    "11.85"
+  ],
+  "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+  "title": "Amount",
+  "type": "string"
+}

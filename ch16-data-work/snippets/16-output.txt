@@ -1,0 +1,3 @@
+chained.py:4: ChainedAssignmentError: A value is being set on a copy of a DataFrame or Series through chained assignment.
+[2, -1]
+[2, 0]

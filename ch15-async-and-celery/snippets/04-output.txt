@@ -1,0 +1,4 @@
+forgot_await.py:9: RuntimeWarning: coroutine 'notify_warehouse' was never awaited
+  notify_warehouse(1042)  # missing await
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+order placed

@@ -1,0 +1,6 @@
+{'name': 'get_order_status',
+ 'description': 'Look up the current status of an order by its ID.',
+ 'input_schema': {'type': 'object',
+                  'properties': {'order_id': {'type': 'string'},
+                                 'include_items': {'type': 'boolean'}},
+                  'required': ['order_id']}}

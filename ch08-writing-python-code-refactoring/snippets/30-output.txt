@@ -1,0 +1,5 @@
+E       AssertionError: assert ['Smith', ' J....00', '35.96'] == ['Smith, Jone....00', '35.96']
+E         
+E         At index 0 diff: 'Smith' != 'Smith, Jones & Co'
+E         Left contains one more item: '35.96'
+E         Use -v to get more diff

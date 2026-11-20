@@ -1,0 +1,16 @@
+CREATE UNIQUE INDEX CONCURRENTLY uq_orders_total ON orders (total);
+ERROR:  could not create unique index "uq_orders_total"
+DETAIL:  Key (total)=(173.52) is duplicated.
+SELECT indexrelid::regclass AS index, indisvalid FROM pg_index
+ WHERE indexrelid = 'uq_orders_total'::regclass;
+      index      | indisvalid 
+-----------------+------------
+ uq_orders_total | f
+
+CREATE UNIQUE INDEX CONCURRENTLY IF NOT EXISTS uq_orders_total ON orders (total);
+NOTICE:  relation "uq_orders_total" already exists, skipping
+SELECT indexrelid::regclass AS index, indisvalid FROM pg_index
+ WHERE indexrelid = 'uq_orders_total'::regclass;
+      index      | indisvalid 
+-----------------+------------
+ uq_orders_total | f

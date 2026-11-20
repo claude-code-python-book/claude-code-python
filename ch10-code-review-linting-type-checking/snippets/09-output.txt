@@ -1,0 +1,13 @@
+src/invoicer/reminders.py:10:17: S105 Possible hardcoded password assigned to: "WEBHOOK_TOKEN"
+src/invoicer/reminders.py:13:42: B006 Do not use mutable data structures for argument defaults
+src/invoicer/reminders.py:25:39: B023 Function definition does not bind loop variable `invoice_id`
+src/invoicer/reminders.py:30:13: S608 Possible SQL injection vector through string-based query construction
+src/invoicer/reminders.py:51:12: S301 `pickle` and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue
+src/invoicer/reminders.py:51:45: PGH003 Use specific rule codes when ignoring type issues
+src/invoicer/reminders.py:62:13: ASYNC210 Async functions should not call blocking HTTP methods
+src/invoicer/reminders.py:62:13: S310 Audit URL open for permitted schemes. Allowing use of `file:` or custom schemes is often unexpected.
+src/invoicer/reminders.py:63:9: E722 Do not use bare `except`
+src/invoicer/reminders.py:63:9: S110 `try`-`except`-`pass` detected, consider logging the exception
+src/invoicer/reminders.py:65:9: ASYNC251 Async functions should not call `time.sleep`
+Found 11 errors.
+No fixes available (1 hidden fix can be enabled with the `--unsafe-fixes` option).

@@ -1,0 +1,4 @@
+Environment():                  <p><script>steal(document.cookie)</script></p>
+select_autoescape():            <p>&lt;script&gt;steal(document.cookie)&lt;/script&gt;</p>
+Template from user input:       Hello 49
+User input as data:             Hello Hello {{ 7 * 7 }}

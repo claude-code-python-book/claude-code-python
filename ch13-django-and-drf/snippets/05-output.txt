@@ -1,0 +1,4 @@
+A booking must last 30 to 240 minutes.
+Start and end must be on a 15-minute boundary.
+Rooms are open 08:00 to 20:00.
+20 people is more than this room holds (8).

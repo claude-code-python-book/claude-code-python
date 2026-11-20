@@ -1,0 +1,121 @@
+{
+  "customers": {
+    "Acme Ltd": {
+      "billed": "188.18",
+      "fees": "0.00",
+      "invoices": 2,
+      "outstanding": "142.50"
+    },
+    "Brandt GmbH": {
+      "billed": "235.74",
+      "fees": "7.08",
+      "invoices": 2,
+      "outstanding": "242.82"
+    },
+    "Coastal Inc": {
+      "billed": "1075.13",
+      "fees": "107.25",
+      "invoices": 2,
+      "outstanding": "1182.38"
+    },
+    "Deccan Traders": {
+      "billed": "386.70",
+      "fees": "0.00",
+      "invoices": 2,
+      "outstanding": "20.06"
+    },
+    "Elbe AG": {
+      "billed": "11.92",
+      "fees": "0.00",
+      "invoices": 2,
+      "outstanding": "0.02"
+    }
+  },
+  "errors": [
+    "row 12: sku: String should have at least 1 character",
+    "row 13: qty: Value error, must be a whole number",
+    "row 14: qty: Input should be greater than 0",
+    "row 15: unit_price: Input should be a valid decimal",
+    "row 16: region: Input should be 'UK', 'DE', 'US-CA' or 'IN'",
+    "row 17: discount: Input should be '', 'SAVE10' or 'BULK5'",
+    "row 18: issued: Value error, must be a date in YYYY-MM-DD form",
+    "row 19: paid: Value error, must be a date in YYYY-MM-DD form",
+    "row 20: Value error, paid before issued",
+    "row 21: invoice INV-001 changes",
+    "row 22: unit_price: Input should be greater than or equal to 0",
+    "row 25: qty: Value error, must be a whole number"
+  ],
+  "grand_total": "2012.00",
+  "invoices": {
+    "INV-001": {
+      "customer": "Acme Ltd",
+      "fee": "0.00",
+      "gross": "45.68",
+      "lines": 2,
+      "status": "paid"
+    },
+    "INV-002": {
+      "customer": "Acme Ltd",
+      "fee": "0.00",
+      "gross": "142.50",
+      "lines": 1,
+      "status": "open"
+    },
+    "INV-003": {
+      "customer": "Brandt GmbH",
+      "fee": "7.07",
+      "gross": "235.62",
+      "lines": 1,
+      "status": "overdue"
+    },
+    "INV-004": {
+      "customer": "Brandt GmbH",
+      "fee": "0.01",
+      "gross": "0.12",
+      "lines": 1,
+      "status": "overdue"
+    },
+    "INV-005": {
+      "customer": "Coastal Inc",
+      "fee": "0.00",
+      "gross": "2.63",
+      "lines": 1,
+      "status": "open"
+    },
+    "INV-006": {
+      "customer": "Coastal Inc",
+      "fee": "107.25",
+      "gross": "1072.50",
+      "lines": 1,
+      "status": "overdue"
+    },
+    "INV-007": {
+      "customer": "Deccan Traders",
+      "fee": "0.00",
+      "gross": "366.64",
+      "lines": 2,
+      "status": "paid"
+    },
+    "INV-008": {
+      "customer": "Deccan Traders",
+      "fee": "0.00",
+      "gross": "20.06",
+      "lines": 1,
+      "status": "open"
+    },
+    "INV-019": {
+      "customer": "Elbe AG",
+      "fee": "0.00",
+      "gross": "0.02",
+      "lines": 1,
+      "status": "open"
+    },
+    "INV-020": {
+      "customer": "Elbe AG",
+      "fee": "0.00",
+      "gross": "11.90",
+      "lines": 1,
+      "status": "paid"
+    }
+  }
+}

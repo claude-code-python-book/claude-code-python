@@ -1,0 +1,9 @@
+exec form   CMD ["uvicorn", ...]
+  docker stop: 0.4s, exit code 0
+  last log:    INFO: Finished server process [1]
+shell form  CMD uvicorn ...
+  processes:
+    1  /bin/sh -c uvicorn catalog.app:app --host 0.0.0.0 --port 8000
+    7  /app/.venv/bin/python /app/.venv/bin/uvicorn catalog.app:app --
+  docker stop: 10.2s, exit code 137
+  last log:    INFO: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C

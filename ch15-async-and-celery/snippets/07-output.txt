@@ -1,0 +1,6 @@
+draft_handlers.py:9:16: ASYNC210 Async functions should not call blocking HTTP methods
+draft_handlers.py:10:10: ASYNC230 Async functions should not open files with blocking methods like `open`
+draft_handlers.py:12:5: ASYNC251 Async functions should not call `time.sleep`
+draft_handlers.py:13:5: ASYNC221 Async functions should not run processes with blocking methods
+draft_handlers.py:18:5: RUF006 Store a reference to the return value of `asyncio.create_task`
+Found 5 errors.

@@ -1,0 +1,12 @@
+S310 Audit URL open for permitted schemes. Allowing use of `file:` or custom schemes is often unexpected.
+  --> src/invoicer/fx.py:15:10
+   |
+13 | def fetch_rates(base: str, url: str = RATES_URL) -> dict[str, Decimal]:
+14 |     """Return the rates from `base` to other currencies, as published at `url`."""
+15 |     with urlopen(f"{url}?base={base}", timeout=5) as response:
+   |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+16 |         data = json.load(response, parse_float=Decimal)
+17 |     return {code: Decimal(rate) for code, rate in data["rates"].items()}
+   |
+
+Found 1 error.

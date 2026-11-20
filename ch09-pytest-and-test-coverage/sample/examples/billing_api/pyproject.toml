@@ -1,0 +1,14 @@
+[project]
+name = "billing-api"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["fastapi>=0.115", "invoicer"]
+
+[dependency-groups]
+dev = ["pytest>=8", "httpx>=0.28"]
+
+[tool.uv.sources]
+invoicer = { path = "../../invoicer", editable = true }
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

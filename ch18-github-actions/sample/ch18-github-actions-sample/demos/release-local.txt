@@ -1,0 +1,18 @@
+$ uv run --no-project scripts/check_version.py v0.3.0
+tag v0.3.0 matches version 0.3.0
+exit 0
+$ uv run --no-project scripts/check_version.py v0.3.1
+::error::tag v0.3.1 does not match pyproject.toml version 0.3.0
+exit 1
+$ uv build
+Building source distribution (uv build backend)...
+Building wheel from source distribution (uv build backend)...
+Successfully built dist/rowbatch-0.3.0.tar.gz
+Successfully built dist/rowbatch-0.3.0-py3-none-any.whl
+exit 0
+$ uv run --isolated --no-project --with dist/*.whl scripts/smoke_test.py
+rowbatch 0.3.0 OK
+exit 0
+$ uv run --isolated --no-project --with dist/*.tar.gz scripts/smoke_test.py
+rowbatch 0.3.0 OK
+exit 0

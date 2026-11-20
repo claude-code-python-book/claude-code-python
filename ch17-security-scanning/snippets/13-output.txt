@@ -1,0 +1,12 @@
+patterns/deserialize.py:15:1: S301 `pickle` and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue
+patterns/deserialize.py:18:76: S506 Probable use of unsafe loader `UnsafeLoader` with `yaml.load`. Allows instantiation of arbitrary objects. Consider `yaml.safe_load`.
+patterns/deserialize.py:24:5: S506 Probable use of unsafe `yaml.load`. Allows instantiation of arbitrary objects. Consider `yaml.safe_load`.
+patterns/requests_draft.py:5:12: S113 Probable use of `requests` call without timeout
+patterns/requests_draft.py:10:12: S324 Probable use of insecure hash functions in `hashlib`: `md5`
+patterns/requests_draft.py:13:13: S105 Possible hardcoded password assigned to: "API_TOKEN"
+patterns/shell.py:10:1: S602 `subprocess` call with `shell=True` identified, security issue
+patterns/shell.py:12:1: S603 `subprocess` call: check for execution of untrusted input
+patterns/shell.py:12:16: S607 Starting a process with a partial executable path
+patterns/templates.py:6:7: S701 By default, jinja2 sets `autoescape` to `False`. Consider using `autoescape=True` or the `select_autoescape` function to mitigate XSS vulnerabilities.
+patterns/templates.py:12:42: S701 By default, jinja2 sets `autoescape` to `False`. Consider using `autoescape=True` or the `select_autoescape` function to mitigate XSS vulnerabilities.
+Found 11 errors.

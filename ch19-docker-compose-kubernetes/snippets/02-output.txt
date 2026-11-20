@@ -1,0 +1,12 @@
+$ docker build --check .
+Check complete, 1 warning has been found!
+
+WARNING: JSONArgsRecommended - https://docs.docker.com/go/dockerfile/rule/json-args-recommended/
+JSON arguments recommended for CMD to prevent unintended behavior related to OS signals
+Dockerfile:6
+--------------------
+   4 |     RUN pip install uv && uv sync
+   5 |     EXPOSE 8000
+   6 | >>> CMD uv run uvicorn catalog.app:app --host 0.0.0.0 --port 8000
+   7 |     
+--------------------

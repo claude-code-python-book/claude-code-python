@@ -1,0 +1,13 @@
+$ docker build --check .
+Check complete, no warnings found.
+$ docker build -t catalog:1.0.0 .   # after editing src/catalog/app.py
+[builder 2/6] COPY --from=ghcr.io/astral-sh/uv:0.13.9 /uv /b  CACHED
+[builder 3/6] WORKDIR /app                                    CACHED
+[builder 4/6] RUN uv sync --locked --no-install-project --no  CACHED
+[builder 5/6] COPY . /app                                     rebuilt
+[builder 6/6] RUN uv sync --locked --no-editable              rebuilt
+[stage-1 2/6] RUN groupadd --system --gid 999 app && useradd  CACHED
+[stage-1 3/6] COPY --from=builder --chown=app:app /app/.venv  rebuilt
+[stage-1 4/6] COPY --chown=app:app alembic.ini /app/          rebuilt
+[stage-1 5/6] COPY --chown=app:app migrations /app/migration  rebuilt
+[stage-1 6/6] WORKDIR /app                                    rebuilt

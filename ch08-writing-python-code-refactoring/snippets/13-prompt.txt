@@ -1,0 +1,7 @@
+Refactor run_billing in src/invoicer/billing_run.py by extracting
+functions: parsing a row, computing a line's net amount, adding a line
+to its invoice, billing an invoice, the late fee, the customer totals,
+and writing the report. Rejected rows should raise a RowError that
+run_billing turns into the same "row N: ..." messages. Keep the
+dictionaries and keep it untyped for now: structure only. The
+characterization tests must pass unchanged.

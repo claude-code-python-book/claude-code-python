@@ -1,0 +1,11 @@
+                  change                  | rewrites 
+------------------------------------------+----------
+ ADD COLUMN ... DEFAULT 'web'             | no
+ ADD COLUMN ... DEFAULT now()             | no
+ ADD COLUMN ... DEFAULT clock_timestamp() | YES
+ ADD COLUMN ... DEFAULT gen_random_uuid() | YES
+ varchar(10) -> varchar(20)               | no
+ varchar(20) -> varchar(5)                | YES
+ numeric(12,2) -> numeric(14,2)           | no
+ integer -> bigint                        | YES
+ DROP COLUMN                              | no

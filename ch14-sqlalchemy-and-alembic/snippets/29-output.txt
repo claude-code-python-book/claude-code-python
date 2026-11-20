@@ -1,0 +1,15 @@
+-- before 0004
+                                      QUERY PLAN                                       
+---------------------------------------------------------------------------------------
+ Aggregate
+   ->  Seq Scan on orders
+         Filter: ((customer_id = 42) AND (placed_at > (now() - '365 days'::interval)))
+(3 rows)
+
+-- after 0004
+                                        QUERY PLAN                                         
+-------------------------------------------------------------------------------------------
+ Aggregate
+   ->  Index Scan using ix_orders_customer_placed on orders
+         Index Cond: ((customer_id = 42) AND (placed_at > (now() - '365 days'::interval)))
+(3 rows)

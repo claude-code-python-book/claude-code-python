@@ -1,0 +1,24 @@
+@@ -27,6 +27,6 @@
+     "Elbe AG": {
+-      "billed": "11.92",
++      "billed": "23.82",
+       "fees": "0.00",
+-      "invoices": 2,
+-      "outstanding": "0.02"
++      "invoices": 3,
++      "outstanding": "11.92"
+     }
+...
+-  "grand_total": "2012.00",
++  "grand_total": "2023.90",
+...
+@@ -118,2 +117,9 @@
+       "status": "paid"
++    },
++    "INV-021": {
++      "customer": "Elbe AG",
++      "fee": "0.00",
++      "gross": "11.90",
++      "lines": 1,
++      "status": "open"
+     }

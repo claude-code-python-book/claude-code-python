@@ -1,0 +1,4 @@
+033 >>> from invoicer import Line, total_with_tax
+UNEXPECTED EXCEPTION: ImportError("cannot import name 'total_with_tax' from 'invoicer' (./src/invoicer/__init__.py)")
+./README.md:33: UnexpectedException
+FAILED README.md::README.md

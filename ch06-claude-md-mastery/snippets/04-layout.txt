@@ -1,0 +1,9 @@
+flat layout                    src layout
+invoicer/                      invoicer/
+├── pyproject.toml             ├── pyproject.toml
+├── invoicer/                  ├── src/
+│   ├── __init__.py            │   └── invoicer/
+│   └── tax.py                 │       ├── __init__.py
+└── tests/                     │       └── tax.py
+    └── test_tax.py            └── tests/
+                                   └── test_tax.py

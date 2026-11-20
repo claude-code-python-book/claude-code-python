@@ -1,0 +1,9 @@
+$ python -m acme_broker.report audit.jsonl
+calls                18
+weekly_active_users  {"2026-W47": 3}
+calls_by_tool        {"get_issue": 13, "search_issues": 3, "comment_on_issue": 2}
+outcomes             {"ok": 14, "no_credential": 2, "upstream_refused": 1, "denied": 1}
+success_rate         0.778
+p50_ms               10.4
+p95_ms               10.8
+needs_onboarding     ["carol@acme.example"]

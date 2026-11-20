@@ -1,0 +1,7 @@
+pydantic 2.13.5
+line 19: PydanticDeprecatedSince20: Pydantic V1 style `@validator` validators are deprecated.
+line 12: PydanticDeprecatedSince20: Support for class-based `config` is deprecated, use ConfigDict instead.
+* 'orm_mode' has been renamed to 'from_attributes'
+line 24: PydanticDeprecatedSince20: The `parse_obj` method is deprecated; use `model_validate` instead.
+line 25: PydanticDeprecatedSince20: The `dict` method is deprecated; use `model_dump` instead.
+{'title': 'Fluent Python', 'year': 2022}

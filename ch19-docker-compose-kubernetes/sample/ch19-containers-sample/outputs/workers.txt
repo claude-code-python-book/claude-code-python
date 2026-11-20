@@ -1,0 +1,6 @@
+$ docker run -e UVICORN_WORKERS=2 catalog:1.0.0
+   PID   RSS  COMMAND
+   1   29 MiB  /app/.venv/bin/python /app/.venv/bin/uvicorn catalog.app:app --hos
+   7   19 MiB  /app/.venv/bin/python -c from multiprocessing.resource_tracker imp
+   8   32 MiB  /app/.venv/bin/python -c from multiprocessing.spawn import spawn_m
+   9   33 MiB  /app/.venv/bin/python -c from multiprocessing.spawn import spawn_m

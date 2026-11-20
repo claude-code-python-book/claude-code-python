@@ -1,0 +1,18 @@
+src/orders/
+├── main.py         app = create_app(): the ASGI entrypoint
+├── app.py          create_app(): routers, handlers, middleware
+├── config.py       Settings, from ORDERS_* environment variables
+├── schemas.py      request and response models
+├── domain.py       Order, Line, OrderStatus and the allowed moves
+├── service.py      OrderService: the business rules
+├── repository.py   OrderRepository Protocol, in-memory version
+├── errors.py       OrderNotFound, InvalidTransition
+├── handlers.py     errors -> RFC 9457 problem details
+├── deps.py         Depends: settings, current user, service
+├── tokens.py       JWTs (PyJWT)
+├── passwords.py    Argon2 hashes (pwdlib)
+├── users.py        users and authenticate()
+├── middleware.py   request id and request log
+└── api/
+    ├── auth.py     POST /auth/token
+    └── orders.py   the /orders router

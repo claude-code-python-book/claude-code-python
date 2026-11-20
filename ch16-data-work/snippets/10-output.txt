@@ -1,0 +1,6 @@
+format='mixed':
+['03 Oct', '13 Oct', '10 Mar', '31 Oct']
+format='mixed', dayfirst=True:
+['10 Mar', '13 Oct', '03 Oct', '31 Oct']
+sum of text prices: '1,249.0049.00'
+coerced sum: 49.0 from 1 of 3 values

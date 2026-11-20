@@ -1,0 +1,36 @@
+[project]
+name = "rowbatch"
+version = "0.3.0"
+description = "Split CSV rows into fixed-size batches for bulk inserts"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+
+[project.scripts]
+rowbatch = "rowbatch.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.16", "mypy>=1.18"]
+
+[build-system]
+requires = ["uv_build>=0.11,<0.14"]
+build-backend = "uv_build"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "RUF"]
+
+[tool.mypy]
+python_version = "3.12"  # the oldest version in requires-python
+strict = true
+files = ["src", "tests"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = ["-ra", "--strict-markers"]

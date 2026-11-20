@@ -1,0 +1,4 @@
+expired    ExpiredSignatureError: Signature has expired
+wrong key  InvalidSignatureError: Signature verification failed
+no sub     MissingRequiredClaimError: Token is missing the "sub" claim
+alg none   InvalidAlgorithmError: The specified alg value is not allowed

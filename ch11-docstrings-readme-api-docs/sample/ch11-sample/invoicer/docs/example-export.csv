@@ -1,0 +1,4 @@
+invoice_id,customer,region,sku,qty,unit_price,issued,paid,discount
+INV-101,Acme Ltd,UK,WIDGET,3,19.99,2026-11-02,,
+INV-102,Acme Ltd,UK,GADGET,1,250.00,2026-09-01,,SAVE10
+INV-103,Brandt GmbH,DE,WIDGET,120,4.50,2026-10-20,2026-11-01,BULK5

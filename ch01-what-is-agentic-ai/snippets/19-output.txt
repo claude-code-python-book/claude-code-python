@@ -1,0 +1,13 @@
+[thinking] I'll start by listing the Python files in the project.
+[step 1]  list_python_files({'directory': '.'})
+[thinking] Four files. I'll read them all to find TODO and FIXME comments.
+[step 2]  read_file({'path': 'orders/service.py'})
+[step 2]  read_file({'path': 'orders/repository.py'})
+[step 2]  read_file({'path': 'billing/invoice.py'})
+[step 2]  read_file({'path': 'billing/tax.py'})
+## TODO report
+**orders/service.py**
+- Line 42: TODO — add retry when the payment gateway times out
+- Line 88: FIXME — status update is not wrapped in a transaction
+**billing/tax.py**
+- Line 17: TODO — read tax rates from settings instead of constants

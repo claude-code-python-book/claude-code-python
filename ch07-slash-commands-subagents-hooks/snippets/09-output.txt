@@ -1,0 +1,11 @@
+UP035 `typing.List` is deprecated, use `list` instead
+ --> legacy.py:2:1
+UP040 Type alias `Rows` uses `TypeAlias` annotation instead of the `type` keyword
+ --> legacy.py:5:1
+UP046 Generic class `Box` uses `Generic` subclass instead of type parameters
+  --> legacy.py:8:11
+UP047 Generic function `first` should use type parameters
+  --> legacy.py:13:5
+...
+Found 9 errors (5 fixed, 4 remaining).
+No fixes available (3 hidden fixes can be enabled with the `--unsafe-fixes` option).

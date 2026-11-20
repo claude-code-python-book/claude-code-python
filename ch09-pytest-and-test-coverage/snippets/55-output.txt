@@ -1,0 +1,6 @@
+============================= slowest 5 durations =============================
+0.40s call     tests/hooks/test_pytest_gate.py::test_allows_stop_when_tests_pass
+0.35s call     tests/hooks/test_pytest_gate.py::test_warns_instead_of_looping
+0.35s teardown tests/test_tax.py::test_totals_round_trip_through_db
+0.34s call     tests/hooks/test_pytest_gate.py::test_blocks_stop_when_tests_fail
+0.16s call     tests/hooks/test_format_python.py::test_fixes_and_formats

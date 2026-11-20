@@ -1,0 +1,3 @@
+Refactor <function> in <module> by extracting functions for <the steps>.
+Structure only: keep the data types and the behaviour. The
+characterization tests must pass unchanged.

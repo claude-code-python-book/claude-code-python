@@ -1,0 +1,3 @@
+request  LineIn.unit_price: {"exclusiveMinimum": 0.0, "type": "number"}
+                       or  {"pattern": "<decimal regex>", "type": "string"}
+response OrderRead.total:   {"pattern": "<decimal regex>", "readOnly": true, "type": "string"}

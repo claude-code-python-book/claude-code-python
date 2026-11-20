@@ -1,0 +1,7 @@
+{
+    "hookSpecificOutput": {
+        "hookEventName": "PreToolUse",
+        "permissionDecision": "ask",
+        "permissionDecisionReason": "0001_btree_gist.py is committed and may already be applied. Create a new migration instead, unless this one has never left your machine."
+    }
+}

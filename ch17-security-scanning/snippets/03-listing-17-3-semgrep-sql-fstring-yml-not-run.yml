@@ -1,0 +1,14 @@
+rules:
+  - id: sqlite-execute-fstring
+    languages: [python]
+    severity: ERROR
+    message: >-
+      SQL built with an f-string reaches execute(). Pass user input through
+      ? placeholders; take identifiers from an allowlist.
+    patterns:
+      - pattern-either:
+          - pattern: $CONN.execute(f"...", ...)
+          - pattern: |
+              $SQL = f"..."
+              ...
+              $CONN.execute($SQL, ...)

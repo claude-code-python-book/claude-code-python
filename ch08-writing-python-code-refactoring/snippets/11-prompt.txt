@@ -1,0 +1,7 @@
+Before we refactor billing_run.py, pin its current behaviour. Add
+tests/data/billing_sample.csv with rows that exercise every branch of
+run_billing: each discount, each region, paid, open and overdue invoices,
+the late-fee cap, and every kind of rejected row. Add a characterization
+test that compares the full result and the customer report with golden
+files, and extend scripts/regen_golden.py to write them. Don't change
+billing_run.py.

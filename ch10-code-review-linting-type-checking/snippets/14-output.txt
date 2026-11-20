@@ -1,0 +1,7 @@
+@@ -26 +26,2 @@ def read_rows(path: Path, required: Collection[str] = ()) -> list[dict[str, str]
+-        header = [name.strip() for name in next(reader, [])]
++        no_header: list[str] = []
++        header = [name.strip() for name in next(reader, no_header)]
+@@ -30 +31 @@ def read_rows(path: Path, required: Collection[str] = ()) -> list[dict[str, str]
+-        rows = []
++        rows: list[dict[str, str]] = []

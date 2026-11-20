@@ -1,0 +1,5 @@
+docker run options                 cpu_count   process_cpu_count    quota/period
+(no limits)                                2                   2       -1/100000
+--cpus 1                                   2                   2   100000/100000
+--cpus 1 --cpuset-cpus 0                   2                   1   100000/100000
+--cpus 1 -e PYTHON_CPU_COUNT=1             1                   1   100000/100000

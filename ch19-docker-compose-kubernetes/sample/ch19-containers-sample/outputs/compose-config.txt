@@ -1,0 +1,6 @@
+$ docker compose config --quiet          # no .env yet
+error while interpolating services.db.environment.POSTGRES_PASSWORD: required variable POSTGRES_PASSWORD is missing a value: set it in .env
+exit code 1
+$ echo 'POSTGRES_PASSWORD=...' > .env && docker compose config --quiet
+exit code 0
+web waits for: db (service_healthy), migrate (service_completed_successfully), redis (service_healthy)

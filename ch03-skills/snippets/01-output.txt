@@ -1,0 +1,7 @@
+writing-pytest-tests/
+├── SKILL.md              required: settings + instructions
+├── references/
+│   └── patterns.md       optional: extra reading, loaded when needed
+└── scripts/
+    ├── list_functions.py optional: tools Claude runs
+    └── check_tests.py

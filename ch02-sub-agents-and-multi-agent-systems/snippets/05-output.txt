@@ -1,0 +1,2 @@
+sequential 6.0s  ['security done', 'tests done', 'style done']
+parallel   2.0s  ['security done', 'tests done', 'style done']

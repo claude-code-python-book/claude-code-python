@@ -1,0 +1,2 @@
+$ docker run --memory 64m catalog:1.0.0 python -c "data = bytearray(200 * 1024 * 1024)"
+exit code 137, OOMKilled=true

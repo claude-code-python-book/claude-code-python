@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv run pytest:*)",
+      "Bash(uv run ruff:*)",
+      "Bash(uv run mypy:*)",
+      "Bash(docker build:*)",
+      "Bash(docker compose config:*)",
+      "Bash(helm lint:*)",
+      "Bash(helm template:*)",
+      "Bash(kubectl diff:*)",
+      "Bash(kubectl get:*)",
+      "Bash(kubectl describe:*)",
+      "Bash(kubectl logs:*)"
+    ],
+    "ask": [
+      "Bash(kubectl apply:*)",
+      "Bash(helm upgrade:*)",
+      "Bash(helm install:*)",
+      "Bash(docker compose up:*)"
+    ],
+    "deny": [
+      "Bash(kubectl delete:*)",
+      "Bash(helm uninstall:*)",
+      "Read(./.env)",
+      "Read(./.env.*)"
+    ]
+  }
+}

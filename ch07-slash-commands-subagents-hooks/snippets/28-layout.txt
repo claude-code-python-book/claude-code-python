@@ -1,0 +1,9 @@
+python-workflows/
+├── .claude-plugin/
+│   └── plugin.json
+├── README.md
+├── agents/          code-reviewer.md, test-writer.md
+├── hooks/
+│   └── hooks.json
+├── scripts/         format_python.py, guard_bash.py, pytest_gate.py
+└── skills/          generate-tests/SKILL.md ... prep-pr/SKILL.md

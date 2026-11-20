@@ -1,0 +1,5 @@
+tests/test_late_fee.py::test_late_fee_on_a_100_invoice[first-overdue-day] PASSED [ 25%]
+tests/test_late_fee.py::test_late_fee_on_a_100_invoice[second-period] PASSED [ 50%]
+tests/test_late_fee.py::test_late_fee_on_a_100_invoice[capped] PASSED    [ 75%]
+tests/test_late_fee.py::test_late_fee_rounds_half_up_to_the_cent PASSED  [100%]
+============================== 4 passed in 0.01s ===============================

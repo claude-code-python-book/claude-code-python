@@ -1,0 +1,5 @@
+$ claude plugin marketplace add ./toolchain
+Adding marketplace…√ Successfully added marketplace: acme-tools (declared in user settings)
+$ claude plugin install acme-dev@acme-tools \
+    --config broker_url=https://mcp.acme.example/mcp
+Installing plugin "acme-dev@acme-tools"...√ Successfully installed plugin: acme-dev@acme-tools (scope: user)

@@ -1,0 +1,3 @@
+Some exports use ";" as the delimiter, like the attached German one.
+Detect it from the header line instead of adding a parameter, document
+the rule in the docstring, and add a test with a comma inside a value.

@@ -1,0 +1,14 @@
+[[case]]
+name = "lost-empty-guard"
+path = "stats.py"
+base = """
+def average(xs: list[float]) -> float:
+    if not xs:
+        return 0.0
+    return sum(xs) / len(xs)
+"""
+change = """
+def average(xs: list[float]) -> float:
+    return sum(xs) / len(xs)
+"""
+expect = [{ line = 2, min_severity = "major", keywords = ["empty", "zero"] }]

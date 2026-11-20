@@ -1,0 +1,3 @@
+draft_query.py:5:32: S608 Possible SQL injection vector through string-based query construction
+draft_query.py:9:33: S610 Use of Django `extra` can lead to SQL injection vulnerabilities
+Found 2 errors.

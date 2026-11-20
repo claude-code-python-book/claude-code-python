@@ -1,0 +1,7 @@
+$ uv run ruff check . && uv run ruff format --check .
+All checks passed!
+53 files already formatted
+$ uv run mypy src
+Success: no issues found in 11 source files
+$ uv run pyright src
+0 errors, 0 warnings, 0 informations

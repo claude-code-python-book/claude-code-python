@@ -1,0 +1,2 @@
+Mock accepted three arguments
+TypeError: too many positional arguments

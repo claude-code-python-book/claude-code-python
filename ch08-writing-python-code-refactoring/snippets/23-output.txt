@@ -1,0 +1,9 @@
+scripts/billing_report.py:9:from invoicer.billing_run import run_billing
+scripts/billing_report.py:16:    result = run_billing(rows, date.today(), report_dir=source.parent)
+scripts/regen_golden.py:10:from invoicer.billing_run import run_billing
+scripts/regen_golden.py:36:    write_json("billing.json", run_billing(rows, BILLING_TODAY))
+scripts/regen_golden.py:38:        run_billing(rows, BILLING_TODAY, report_dir=tmp)
+src/invoicer/billing_run.py:33:def run_billing(
+tests/test_billing_characterization.py:13:from invoicer.billing_run import run_billing
+tests/test_billing_characterization.py:22:    result = run_billing(read_rows(SAMPLE), TODAY)
+tests/test_billing_characterization.py:28:    run_billing(read_rows(SAMPLE), TODAY, report_dir=tmp_path)

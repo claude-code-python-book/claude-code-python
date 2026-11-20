@@ -1,0 +1,10 @@
+E           AssertionError: orders-2026-10.csv has changed
+E           assert 'ae3953c44a82...8d6ff1a62640a' == '5755ba0eecf7...275483b7e470f'
+E             
+E             - 5755ba0eecf75643181051c93782f1cf3927b5ab08c637d5e79275483b7e470f
+E             + ae3953c44a829ee6d06e07707160492b150b63aaad1aa0199468d6ff1a62640a
+
+tests/test_raw_data.py:15: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_raw_data.py::test_raw_files_match_their_manifest - Assertio...
+1 failed

@@ -1,0 +1,5 @@
+Write README.md for invoicer. Sections: one paragraph on what it is and
+who it's for; a quick start that runs the CLI on docs/example-export.csv,
+with the real output; one Python example as a doctest; a table of
+development commands from CLAUDE.md; and where the rest of the docs live.
+Run every command you show and paste the real output.

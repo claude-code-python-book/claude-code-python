@@ -1,0 +1,6 @@
+Convert loyalty/service.py from Session to AsyncSession. Await every
+execute, scalars, scalar, get and flush. Keep lazy="raise" on all
+relationships; anything a function reads from a relationship must be
+loaded in its query with selectinload or joinedload. Don't commit inside
+service functions. Run the db tests, then show me any function whose
+statement count changed.

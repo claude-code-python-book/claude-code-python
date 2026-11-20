@@ -1,0 +1,9 @@
+   planner                        3.1s
+   writer: What the GIL is        6.8s
+   writer: Threads and CPU-boun   7.4s
+   writer: What to use instead    6.2s
+   reviewer (round 1)             9.5s
+   writer: Threads and CPU-boun   6.9s
+   reviewer (round 2)             8.1s
+   approved: True   total tokens: 24,180
+Saved article.md

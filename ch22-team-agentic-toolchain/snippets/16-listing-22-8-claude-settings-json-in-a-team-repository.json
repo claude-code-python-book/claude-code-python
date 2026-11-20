@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "extraKnownMarketplaces": {
+    "acme-tools": {
+      "source": { "source": "github", "repo": "acme/claude-toolchain" }
+    }
+  },
+  "enabledPlugins": {
+    "acme-dev@acme-tools": true
+  }
+}

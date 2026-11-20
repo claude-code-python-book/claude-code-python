@@ -1,0 +1,8 @@
+[project]
+name = "mcp-demo"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = ["mcp[cli]>=2.3,<3", "psycopg[binary]>=3.2", "anthropic", "fastapi", "uvicorn"]
+
+[dependency-groups]
+dev = ["pytest>=8", "anyio>=4"]

@@ -1,0 +1,7 @@
+/plan Replace scripts/billing_report.py with a proper command, installed
+as invoicer-billing. It takes the export path, an optional --today date
+in ISO format (default today) and an optional --report-dir. It prints
+one line per customer and the grand total to stdout, rejected rows to
+stderr, and exits 1 if any row was rejected. A missing file or missing
+columns should be a usage error. Put the code in src/invoicer/cli.py
+with tests in tests/test_cli.py, and add the command to CLAUDE.md.

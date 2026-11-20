@@ -1,0 +1,4 @@
+pickle.loads() just called print() for the sender
+yaml.load(UnsafeLoader) called os.getcwd(): True
+yaml.safe_load -> ConstructorError could not determine a constructor for the tag 'tag:yaml.org,2002:python/object/apply:os.getcwd'
+yaml.load(doc) -> TypeError load() missing 1 required positional argument: 'Loader'

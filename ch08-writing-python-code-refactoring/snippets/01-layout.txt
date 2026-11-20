@@ -1,0 +1,11 @@
+src/invoicer/
+├── csv_rows.py          reads CSV exports (Section 3)
+├── billing_run.py       the legacy billing run, later a deprecated alias
+├── billing.py           the billing run after the refactors (Section 6)
+├── billing_models.py    Pydantic model and dataclasses (Refactor 2)
+├── cli.py               the invoicer-billing command (Section 10)
+└── py.typed             marks the package as typed (Refactor 3)
+tests/
+├── data/billing_sample.csv
+├── golden/billing.json, golden/billing_customers.csv
+└── test_csv_rows.py, test_billing*.py, test_cli.py

@@ -1,0 +1,3 @@
+We're renaming <old name> to <new name>. First list every reference:
+imports, calls, strings, mock targets, docs and config. Don't edit
+anything yet.

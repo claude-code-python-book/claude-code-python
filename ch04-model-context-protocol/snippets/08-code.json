@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "shop-db": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["run", "pg_server.py"],
+      "env": {"SHOP_DB_URL": "${SHOP_DB_URL}"}
+    }
+  }
+}

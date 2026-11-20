@@ -1,0 +1,37 @@
+[project]
+name = "bookings-site"
+version = "1.0.0"
+description = "Room bookings: Django and DRF, the sample project for Chapter 13"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=6.1,<6.2",
+    "djangorestframework>=3.18",
+    "psycopg[binary]",
+]
+
+[dependency-groups]
+dev = ["pytest>=9", "pytest-django>=4.12", "factory-boy>=3.3", "ruff>=0.16"]
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "config.settings.test"
+testpaths = ["tests"]
+addopts = ["--strict-markers"]
+
+[tool.ruff]
+line-length = 88
+extend-exclude = ["bookings/migrations/0*_*.py"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "S", "DJ", "D", "RUF100"]
+ignore = ["D105", "D106", "D107"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S101", "S603", "D"]
+"config/settings/*" = ["F405"]
+".claude/hooks/*" = ["S603", "S607"]  # fixed git commands, no user input
+
+[tool.ruff.lint.isort]
+known-first-party = ["bookings", "config", "tests"]

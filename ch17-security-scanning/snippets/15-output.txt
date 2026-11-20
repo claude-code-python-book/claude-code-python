@@ -1,0 +1,5 @@
+shell=True:
+2 notes.txt
+INJECTED
+argument list:
+wc: 'notes.txt; echo INJECTED': No such file or directory

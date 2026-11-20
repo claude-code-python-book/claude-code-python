@@ -1,0 +1,8 @@
+Find the testing gaps in src/invoicer/. Start with
+uv run pytest --cov=invoicer --cov-report=term-missing and note missed
+lines, partial branches and files at 0%. Then go further than coverage:
+for each condition, constant and boundary in billing.py, billing_models.py
+and csv_rows.py, say which test would fail if it changed. Check CLAUDE.md
+for code that matters outside the test suite. Before writing any test,
+give me the gaps ranked by risk, one line each, and mark anything that
+needs a product decision.

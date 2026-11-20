@@ -1,0 +1,5 @@
+Move the cleaning steps from notebooks/explore-before.ipynb into
+src/salesreport/clean.py as clean_orders(raw) -> Cleaned, following the data
+rules in CLAUDE.md. First write tests in tests/test_clean.py using the rows in
+tests/conftest.py, run them and show me they fail. Then implement. Finally,
+replace the notebook's cleaning cells with imports from salesreport.

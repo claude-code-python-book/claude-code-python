@@ -1,0 +1,10 @@
+$ python -m pytest -v tests/test_review_session.py tests/test_failures.py
+test_review_session.py::test_review_session PASSED
+test_failures.py::test_budget_stop_keeps_partial_findings PASSED
+test_failures.py::test_crash_before_any_result_raises PASSED
+test_failures.py::test_schema_rejects_unknown_severity PASSED
+test_failures.py::test_invalid_base_is_rejected_before_spawning PASSED
+test_failures.py::test_sdk_warns_that_allowed_tools_skip_the_callback PASSED
+
+$ python -m pytest -q
+37 passed

@@ -1,0 +1,3 @@
+_____________________ ERROR collecting tests/test_typo.py ______________________
+'slwo' not found in `markers` configuration option
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!

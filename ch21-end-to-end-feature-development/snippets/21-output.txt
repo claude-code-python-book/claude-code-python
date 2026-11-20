@@ -1,0 +1,13 @@
+$ python -m pytest -q
+SKIPPED tests/integration/test_repository_pg.py:8: could not import 'sqlalchemy': No module named 'sqlalchemy'
+SKIPPED tests/unit/test_api.py:5: could not import 'fastapi': No module named 'fastapi'
+31 passed, 2 skipped
+$ ruff check .
+All checks passed!
+$ mypy
+Success: no issues found in 10 source files
+$ python -m trace --count --summary --module pytest -q tests/unit
+lines   cov%   module
+   31   100%   ratings
+   16   100%   schemas
+   47   100%   service

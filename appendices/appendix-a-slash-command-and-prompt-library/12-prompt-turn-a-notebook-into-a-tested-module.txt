@@ -1,0 +1,4 @@
+Move the <step> code from <notebook> into <module> as <function>,
+following the data rules in CLAUDE.md. First write tests and show me
+they fail. Then implement. Finally, replace the notebook's cells with
+imports from the package.

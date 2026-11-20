@@ -1,0 +1,15 @@
+loyalty-service/
+├── CLAUDE.md
+├── alembic.ini            post-write hooks: Ruff fixes and formats
+├── compose.yaml           PostgreSQL for local tests
+├── loyalty/
+│   ├── rules.py           the rules: plain Python
+│   ├── models.py          customers, orders, accounts, ledger
+│   ├── db.py              async engine and session factory
+│   └── service.py         rules applied inside transactions
+├── migrations/
+│   ├── env.py
+│   └── versions/          0001_initial.py ... 0005_require_loyalty_tier.py
+├── tools/check_migrations.py
+├── .claude/               settings.json, hooks/check_migration.py
+└── tests/                 rules, checker and hook; db/ needs PostgreSQL

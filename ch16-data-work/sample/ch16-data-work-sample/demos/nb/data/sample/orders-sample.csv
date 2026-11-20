@@ -1,0 +1,1001 @@
+order_id,order_date,region,product,quantity,unit_price,status
+ORD-100019,2026-10-12,South,Monitor Arm,2,189.00,completed
+ORD-100031,2026-10-31,North,Cable Kit,5,24.00,completed
+ORD-100051,2026-10-09,West,Mouse,1,49.00,completed
+ORD-100065,2026-10-17,North,Monitor Arm,1,189.00,completed
+ORD-100108,2026-10-13,East,Mouse,1,49.00,completed
+ORD-100120,2026-10-21,South,Notebook Pack,3,12.50,completed
+ORD-100135,2026-10-15,North,Notebook Pack,1,12.50,completed
+ORD-100160,2026-10-04,North,Mouse,5,49.00,completed
+ORD-100170,2026-10-13,West,USB-C Dock,2,279.00,completed
+ORD-100217,2026-10-15,West,Keyboard,1,129.00,cancelled
+ORD-100319,2026-10-08,South,USB-C Dock,1,279.00,completed
+ORD-100330,2026-10-13,West,Webcam,4,99.00,completed
+ORD-100367,2026-10-06,North,Office Chair,1,899.00,refunded
+ORD-100385,2026-10-09,West,USB-C Dock,1,279.00,completed
+ORD-100394,2026-10-13,West,Mouse,1,49.00,completed
+ORD-100397,2026-10-02,West,Mouse,1,49.00,cancelled
+ORD-100401,2026-10-06,South,Mouse,1,49.00,completed
+ORD-100409,2026-10-28,West,Headset,2,159.00,completed
+ORD-100421,2026-10-07,North,Office Chair,2,899.00,completed
+ORD-100424,2026-10-02,West,Monitor Arm,1,189.00,completed
+ORD-100431,19-10-2026,East,Notebook Pack,4,12.50,completed
+ORD-100439,2026-10-05,North,Webcam,2,99.00,completed
+ORD-100479,2026-10-15,North,Notebook Pack,2,12.50,completed
+ORD-100481,2026-10-05,North,Mouse,2,49.00,completed
+ORD-100483,2026-10-20,South,USB-C Dock,3,279.00,completed
+ORD-100489,2026-10-01,SOUTH ,Office Chair,4,899.00,cancelled
+ORD-100491,2026-10-31,North,Office Chair,1,899.00,completed
+ORD-100543,2026-10-22,East,Standing Desk,1,"1,249.00",refunded
+ORD-100583,2026-10-26,North,Keyboard,1,129.00,Completed
+ORD-100603,2026-10-14,SOUTH ,Mouse,1,49.00,Completed
+ORD-100613,2026-10-07,West,Keyboard,2,129.00,completed
+ORD-100614,28-10-2026,East,Monitor Arm,4,189.00,completed
+ORD-100648,2026-10-17,North,USB-C Dock,1,279.00,completed
+ORD-100660,2026-10-10,South,USB-C Dock,1,279.00,completed
+ORD-100669,2026-10-15,North,Monitor Arm,1,189.00,completed
+ORD-100688,2026-10-10,West,Desk Lamp,3,59.90,completed
+ORD-100712,24-10-2026,East,Headset,4,159.00,completed
+ORD-100732,2026-10-08,West,Keyboard,1,129.00,completed
+ORD-100785,2026-10-01,N,Notebook Pack,1,12.50,completed
+ORD-100831,2026-10-06,South,Office Chair,3,899.00,cancelled
+ORD-100863,2026-10-23,South,Headset,1,159.00,completed
+ORD-100866,2026-10-24,North,Whiteboard,1,349.00,refunded
+ORD-100881,2026-10-26,South,Monitor Arm,1,189.00,refunded
+ORD-100896,2026-10-09,East,Cable Kit,2,24.00,completed
+ORD-100931,2026-10-30,East,Standing Desk,2,"1,249.00",completed
+ORD-100932,13-10-2026,East,Mouse,1,49.00,cancelled
+ORD-100933,2026-10-11,South,Keyboard,5,129.00,completed
+ORD-100997,2026-10-01,North,Keyboard,3,129.00,completed
+ORD-100998,2026-10-25,South,USB-C Dock,1,279.00,completed
+ORD-101036,2026-10-08,South,Desk Lamp,1,59.90,completed
+ORD-101048,15-10-2026,East,Standing Desk,1,"1,249.00",completed
+ORD-101050,2026-10-04,East,Keyboard,4,129.00,completed
+ORD-101059,2026-10-25,North,Mouse,2,49.00,completed
+ORD-101066,2026-10-21,West,Desk Lamp,2,59.90,cancelled
+ORD-101077,08-10-2026,East,Mouse,3,49.00,completed
+ORD-101083,14-10-2026,East,Desk Lamp,3,59.90,completed
+ORD-101123,24-10-2026,East,Mouse,1,49.00,completed
+ORD-101128,2026-10-01,N,Keyboard,2,129.00,completed
+ORD-101135,2026-10-22,North,Whiteboard,5,349.00,completed
+ORD-101154,2026-10-03,north,Standing Desk,-1,"1,249.00",cancelled
+ORD-101167,2026-10-12,North,Monitor Arm,2,189.00,completed
+ORD-101181,2026-10-09,East,Notebook Pack,4,12.50,completed
+ORD-101217,2026-10-27,South,Headset,4,159.00,completed
+ORD-101265,2026-10-17,North,Notebook Pack,2,12.50,completed
+ORD-101271,2026-10-31,North,Whiteboard,1,349.00,completed
+ORD-101317,2026-10-07,East,Desk Lamp,1,59.90,refunded
+ORD-101369,2026-10-11,East,Keyboard,2,129.00,refunded
+ORD-101375,2026-10-15,East,Mouse,1,49.00,completed
+ORD-101403,2026-10-16,North,USB-C Dock,1,279.00,completed
+ORD-101422,2026-10-30,North,Cable Kit,1,24.00,completed
+ORD-101446,2026-10-04,North,Notebook Pack,1,12.50,Completed
+ORD-101447,2026-10-17,South,Keyboard,3,129.00,completed
+ORD-101483,2026-10-26,South,Mouse,3,49.00,completed
+ORD-101503,2026-10-13,North,Headset,1,159.00,completed
+ORD-101504,2026-10-12,South,Headset,1,159.00,completed
+ORD-101544,2026-10-11,West,Mouse,3,49.00,completed
+ORD-101553,2026-10-20,North,Headset,4,159.00,completed
+ORD-101629,2026-10-30,South,Standing Desk,1,"1,249.00",completed
+ORD-101630,2026-10-27,West,Standing Desk,1,"1,249.00",completed
+ORD-101643,2026-10-28,South,Cable Kit,1,24.00,completed
+ORD-101646,2026-10-03,North,Monitor Arm,1,189.00,completed
+ORD-101650,2026-10-23,South,Standing Desk,3,"1,249.00",cancelled
+ORD-101665,2026-10-14,West,Keyboard,3,129.00,completed
+ORD-106501,2026-10-12,South,Mouse,5,49.00,completed
+ORD-101699,2026-10-28,South,USB-C Dock,5,279.00,completed
+ORD-101701,2026-10-01,South,Notebook Pack,1,12.50,completed
+ORD-101710,2026-10-13,West,Cable Kit,1,24.00,completed
+ORD-101713,2026-10-20,East,Mouse,1,49.00,completed
+ORD-101749,2026-10-11,South,Keyboard,1,129.00,completed
+ORD-101750,2026-10-13,South,Keyboard,5,129.00,completed
+ORD-101756,2026-10-31,West,Mouse,1,49.00,completed
+ORD-101811,2026-10-21,North,Mouse,1,49.00,completed
+ORD-101839,2026-10-06,West,Desk Lamp,4,59.90,completed
+ORD-101903,2026-10-18,South,Office Chair,1,899.00,completed
+ORD-101907,08-10-2026,East,Cable Kit,1,24.00,completed
+ORD-101908,2026-10-02,North,Cable Kit,3,24.00,completed
+ORD-101918,2026-10-24,West,Desk Lamp,1,59.90,completed
+ORD-101932,2026-10-02,South,Mouse,1,49.00,completed
+ORD-101935,22-10-2026,East,Webcam,1,99.00,completed
+ORD-101957,2026-10-24,South,Keyboard,3,129.00,completed
+ORD-101989,2026-10-26,South,Notebook Pack,3,12.50,completed
+ORD-102033,2026-10-24,West,Webcam,4,99.00,completed
+ORD-102042,14-10-2026,East,Keyboard,3,129.00,refunded
+ORD-102057,22-10-2026,East,Cable Kit,2,24.00,completed
+ORD-102058,2026-10-05,North,Standing Desk,1,"1,249.00",completed
+ORD-102095,2026-10-04,West,Standing Desk,1,"1,249.00",completed
+ORD-102102,2026-10-14,South,Mouse,1,49.00,completed
+ORD-102111,2026-10-20,West,Monitor Arm,1,189.00,refunded
+ORD-102127,2026-10-28,North,Monitor Arm,2,189.00,completed
+ORD-102167,2026-10-06,West,Notebook Pack,1,12.50,completed
+ORD-102176,2026-10-06,south,Mouse,1,49.00,completed
+ORD-102179,2026-10-16,North,Notebook Pack,2,12.50,completed
+ORD-102229,2026-10-01,South,Desk Lamp,2,59.90,completed
+ORD-102249,2026-10-22,South,Desk Lamp,1,59.90,completed
+ORD-102277,2026-10-07,North,Desk Lamp,2,59.90,completed
+ORD-102287,2026-10-08,North,Notebook Pack,3,12.50,completed
+ORD-102293,2026-10-29,North,Notebook Pack,2,12.50,cancelled
+ORD-102310,22-10-2026,East,Desk Lamp,5,59.90,Completed
+ORD-102323,2026-10-18,North,Mouse,5,49.00,completed
+ORD-102355,2026-10-30,South,Mouse,2,49.00,completed
+ORD-102356,2026-10-13,South,Mouse,1,49.00,completed
+ORD-102370,2026-10-08,West,Webcam,3,99.00,completed
+ORD-102380,2026-10-11,South,Standing Desk,1,"1,249.00",cancelled
+ORD-102385,2026-10-03,East,Mouse,4,49.00,completed
+ORD-102390,2026-10-18,North,Headset,4,159.00,completed
+ORD-102410,2026-10-06,West,Monitor Arm,1,189.00,cancelled
+ORD-102443,2026-10-14,East,Desk Lamp,1,59.90,completed
+ORD-102444,2026-10-24,East,Notebook Pack,1,12.50,completed
+ORD-102516,2026-10-08,South,Cable Kit,2,24.00,completed
+ORD-102545,2026-10-19,South,Desk Lamp,5,59.90,completed
+ORD-102561,2026-10-23,West,Webcam,1,99.00,completed
+ORD-102562,2026-10-14,South,Mouse,5,49.00,completed
+ORD-102569,2026-10-22,East,Office Chair,2,899.00,completed
+ORD-102571,2026-10-17,south,Cable Kit,2,24.00,completed
+ORD-102576,25-10-2026,East,Notebook Pack,2,12.50,completed
+ORD-102581,2026-10-16,South,Webcam,3,99.00,completed
+ORD-102603,20-10-2026,East,USB-C Dock,3,279.00,completed
+ORD-102633,2026-10-13,North,Webcam,1,99.00,refunded
+ORD-102639,2026-10-17,South,Mouse,4,49.00,completed
+ORD-102640,2026-10-22,North,USB-C Dock,3,279.00,completed
+ORD-102651,2026-10-13,South,Monitor Arm,2,189.00,completed
+ORD-102679,2026-10-07,North,USB-C Dock,2,279.00,completed
+ORD-102702,15-10-2026,East,Keyboard,0,129.00,completed
+ORD-102703,2026-10-19,East,Cable Kit,0,24.00,completed
+ORD-102738,2026-10-14,West,Notebook Pack,5,12.50,completed
+ORD-102748,2026-10-12,South,Keyboard,2,129.00,completed
+ORD-102754,2026-10-13,East,Notebook Pack,3,12.50,completed
+ORD-102791,2026-10-21,South,USB-C Dock,1,279.00,completed
+ORD-102812,2026-10-14,North,Mouse,1,49.00,completed
+ORD-102826,2026-10-24,West,Office Chair,1,899.00,completed
+ORD-102889,2026-10-07,West,Keyboard,1,129.00,completed
+ORD-102917,2026-10-03,West,USB-C Dock,1,279.00,completed
+ORD-102946,2026-10-03,North,Desk Lamp,1,59.90,completed
+ORD-102954,2026-10-09,North,Monitor Arm,1,189.00,completed
+ORD-102967,2026-10-08,North,Whiteboard,1,349.00,completed
+ORD-102997,2026-10-10,South,Mouse,2,49.00,completed
+ORD-103004,2026-10-31,South,Notebook Pack,0,12.50,completed
+ORD-103008,2026-10-17,North,Notebook Pack,3,12.50,completed
+ORD-103052,2026-10-30,East,Mouse,2,49.00,refunded
+ORD-103072,22-10-2026,East,Keyboard,2,129.00,completed
+ORD-103074,2026-10-14,South,Desk Lamp,1,59.90,completed
+ORD-103125,2026-10-29,West,Desk Lamp,1,59.90,completed
+ORD-103138,2026-10-27,NORTH,Mouse,4,49.00,cancelled
+ORD-103159,2026-10-02,West,Cable Kit,3,24.00,completed
+ORD-103163,2026-10-26,south,Mouse,1,49.00,completed
+ORD-103178,2026-10-30,west,Desk Lamp,2,59.90,completed
+ORD-103180,2026-10-28,North,Keyboard,4,129.00,completed
+ORD-103207,2026-10-17,South,Mouse,2,49.00,completed
+ORD-103239,2026-10-18,North,Notebook Pack,1,12.50,completed
+ORD-103258,13-10-2026,East,Keyboard,2,129.00,completed
+ORD-103270,09-10-2026,East,Mouse,1,49.00,completed
+ORD-103284,2026-10-03,East,Desk Lamp,4,59.90,cancelled
+ORD-103289,2026-10-30,North,Desk Lamp,2,59.90,completed
+ORD-103295,2026-10-17,West,Headset,2,159.00,refunded
+ORD-103319,2026-10-04,Central,Notebook Pack,1,12.50,completed
+ORD-103321,2026-10-02,,Cable Kit,1,24.00,cancelled
+ORD-103347,2026-10-31,West,Mouse,2,49.00,completed
+ORD-103362,21-10-2026,East,Desk Lamp,3,59.90,completed
+ORD-103372,2026-10-30,North,Cable Kit,1,24.00,completed
+ORD-103413,2026-10-05,south,Desk Lamp,5,59.90,completed
+ORD-103445,2026-10-14,North,Keyboard,2,129.00,completed
+ORD-103451,2026-10-02,North,Notebook Pack,3,12.50,completed
+ORD-103463,2026-10-05,South,Standing Desk,2,"1,249.00",completed
+ORD-103489,2026-10-24,North,USB-C Dock,1,279.00,cancelled
+ORD-103494,2026-10-12,West,Standing Desk,5,"1,249.00",completed
+ORD-103586,2026-10-01,South,Monitor Arm,5,189.00,completed
+ORD-103648,2026-10-23,east,Notebook Pack,1,12.50,completed
+ORD-103672,2026-10-01,West,Cable Kit,1,24.00,completed
+ORD-103679,2026-10-16,West,Desk Lamp,1,59.90,completed
+ORD-103682,2026-10-09,West,Desk Lamp,1,59.90,completed
+ORD-103683,2026-10-24,East,Webcam,2,99.00,completed
+ORD-103691,2026-10-01,South,Desk Lamp,2,59.90,completed
+ORD-103702,2026-10-27,South,Desk Lamp,2,59.90,Completed
+ORD-103729,2026-10-24,North,Cable Kit,1,24.00,cancelled
+ORD-103732,2026-10-31,South,Notebook Pack,1,12.50,completed
+ORD-103773,2026-10-19,West,Notebook Pack,3,12.50,completed
+ORD-103779,2026-10-21,west,Whiteboard,2,349.00,refunded
+ORD-103787,2026-10-12,North,Desk Lamp,1,59.90,completed
+ORD-103871,2026-10-30,South,Cable Kit,1,24.00,completed
+ORD-103888,2026-10-19,East,Notebook Pack,1,12.50,completed
+ORD-103890,2026-10-29,West,Headset,2,159.00,completed
+ORD-103907,2026-10-05,West,Notebook Pack,1,12.50,completed
+ORD-103917,2026-10-30,North,Cable Kit,4,24.00,completed
+ORD-103934,2026-10-02,North,Desk Lamp,3,59.90,completed
+ORD-103936,2026-10-08,South,Mouse,3,49.00,completed
+ORD-103951,2026-10-14,North,Mouse,2,49.00,completed
+ORD-103978,2026-10-03,East,Cable Kit,1,24.00,completed
+ORD-103980,2026-10-14,North,Notebook Pack,2,12.50,cancelled
+ORD-103986,2026-10-03,North,Keyboard,2,129.00,completed
+ORD-104001,2026-10-10,North,Mouse,1,,completed
+ORD-104019,20-10-2026,East,Notebook Pack,2,12.50,completed
+ORD-104026,2026-10-05,East,Keyboard,1,129.00,completed
+ORD-104032,2026-10-12,East,Notebook Pack,2,12.50,completed
+ORD-104045,2026-10-21,East,Webcam,1,99.00,completed
+ORD-104050,2026-10-02,South,Webcam,2,99.00,completed
+ORD-104076,2026-10-13,West,Cable Kit,1,24.00,completed
+ORD-104080,2026-10-20,South,Cable Kit,3,24.00,completed
+ORD-104103,2026-10-12,West,Mouse,2,49.00,completed
+ORD-104117,2026-10-21,South,Webcam,1,99.00,completed
+ORD-104130,2026-10-17,South,Desk Lamp,1,59.90,completed
+ORD-104150,2026-10-19,South,Standing Desk,2,"1,249.00",completed
+ORD-104160,2026-10-01,South,Notebook Pack,5,12.50,completed
+ORD-104186,2026-10-04,South,Keyboard,1,129.00,completed
+ORD-104201,2026-10-13,North,Notebook Pack,3,12.50,completed
+ORD-104248,2026-10-20,North,Notebook Pack,2,12.50,completed
+ORD-104284,2026-10-12,South,Desk Lamp,1,59.90,completed
+ORD-104320,2026-10-02,North,Webcam,5,99.00,completed
+ORD-104332,2026-10-15,NORTH,Office Chair,2,899.00,completed
+ORD-104369,2026-10-20,West,Notebook Pack,-1,12.50,completed
+ORD-104375,2026-10-18,West,Keyboard,5,129.00,completed
+ORD-104385,2026-10-18,North,Mouse,2,49.00,cancelled
+ORD-104402,2026-10-05,East,Headset,1,159.00,refunded
+ORD-104414,2026-10-04,South,USB-C Dock,4,279.00,completed
+ORD-104483,2026-10-05,North,Headset,2,159.00,refunded
+ORD-104500,2026-10-25,West,Cable Kit,2,24.00,completed
+ORD-104507,2026-10-17,West,Standing Desk,3,"1,249.00",completed
+ORD-104529,2026-10-29,East,Notebook Pack,1,12.50,completed
+ORD-104530,2026-10-09,West,Notebook Pack,1,12.50,cancelled
+ORD-104531,2026-10-02,South,Standing Desk,4,"1,249.00",completed
+ORD-104536,2026-10-29,South,Office Chair,2,899.00,completed
+ORD-104540,2026-10-21,West,USB-C Dock,1,279.00,completed
+ORD-104566,28-10-2026,East,Cable Kit,1,24.00,completed
+ORD-104629,2026-10-17,East,Headset,1,159.00,completed
+ORD-104656,2026-10-18,South,Standing Desk,2,"1,249.00",completed
+ORD-104658,2026-10-05,West,Monitor Arm,2,189.00,completed
+ORD-104713,2026-10-26,North,Desk Lamp,1,59.90,completed
+ORD-104747,2026-10-05,West,Keyboard,1,129.00,completed
+ORD-104764,2026-10-10,East,Monitor Arm,1,189.00,completed
+ORD-104774,2026-10-08,West,Mouse,2,49.00,completed
+ORD-104782,2026-10-06,West,Desk Lamp,2,59.90,completed
+ORD-104794,2026-10-29,North,Monitor Arm,4,189.00,cancelled
+ORD-104805,2026-10-21,East,Monitor Arm,1,189.00,cancelled
+ORD-104816,2026-10-16,South,Headset,1,159.00,completed
+ORD-104828,2026-10-29,South,Mouse,4,49.00,completed
+ORD-104847,2026-10-19,west,Cable Kit,1,24.00,completed
+ORD-104873,2026-10-15,South,Desk Lamp,1,59.90,completed
+ORD-104912,2026-10-16,North,Webcam,1,99.00,completed
+ORD-104951,2026-10-03,South,Mouse,5,49.00,completed
+ORD-104969,2026-10-12,East,Standing Desk,1,"1,249.00",completed
+ORD-105007,2026-10-25,South,Cable Kit,1,24.00,completed
+ORD-105025,2026-10-12,West,Notebook Pack,4,12.50,completed
+ORD-105122,2026-10-02,South,Headset,1,159.00,completed
+ORD-105197,2026-10-02,South,Office Chair,1,899.00,completed
+ORD-105235,2026-10-27,West,Keyboard,1,129.00,completed
+ORD-105243,2026-10-20,East,Mouse,1,49.00,completed
+ORD-105267,2026-10-27,North,Standing Desk,1,"1,249.00",completed
+ORD-105274,2026-10-19,West,Notebook Pack,2,12.50,completed
+ORD-105328,2026-10-07,South,Headset,1,159.00,completed
+ORD-105387,2026-10-20,North,Mouse,1,49.00,completed
+ORD-105401,2026-10-16,East,USB-C Dock,2,279.00,completed
+ORD-105434,2026-10-22,North,Notebook Pack,3,12.50,completed
+ORD-105446,12-10-2026,East,Desk Lamp,2,59.90,refunded
+ORD-105454,2026-10-01,South,Desk Lamp,1,59.90,completed
+ORD-105463,2026-10-17,North,Mouse,1,49.00,completed
+ORD-105465,2026-10-15,South,Monitor Arm,1,189.00,completed
+ORD-105477,25-10-2026,East,Headset,1,159.00,completed
+ORD-105492,2026-10-20,West,Notebook Pack,2,12.50,cancelled
+ORD-105496,2026-10-03,East,Keyboard,1,129.00,refunded
+ORD-105501,2026-10-09,East,Notebook Pack,1,12.50,completed
+ORD-105537,2026-10-27,East,Notebook Pack,1,12.50,completed
+ORD-105538,2026-10-29,South,Keyboard,2,129.00,completed
+ORD-105552,2026-10-10,South,Mouse,3,49.00,completed
+ORD-105567,2026-10-24,South,Mouse,1,49.00,refunded
+ORD-105574,2026-10-18,East,Mouse,1,49.00,completed
+ORD-105595,2026-10-11,South,Standing Desk,4,"1,249.00",completed
+ORD-105608,07-10-2026,E,Office Chair,2,899.00,completed
+ORD-105609,2026-10-27,East,Office Chair,3,899.00,completed
+ORD-105643,2026-10-11,North,Cable Kit,1,24.00,completed
+ORD-105660,2026-10-09,South,Headset,2,159.00,cancelled
+ORD-105664,2026-10-31,E,Notebook Pack,1,12.50,completed
+ORD-105667,2026-10-30,South,Cable Kit,1,24.00,completed
+ORD-105702,2026-10-04,North,Cable Kit,3,24.00,completed
+ORD-105716,2026-10-13,South,Desk Lamp,1,59.90,completed
+ORD-100282,2026-10-06,South,Headset,2,159.00,completed
+ORD-105839,2026-10-13,West,Keyboard,1,129.00,completed
+ORD-105902,2026-10-24,North,Desk Lamp,5,59.90,completed
+ORD-105927,2026-10-08,East,Keyboard,1,129.00,completed
+ORD-105983,2026-10-28,East,Desk Lamp,1,59.90,completed
+ORD-106039,02-10-2026,East,Notebook Pack,5,12.50,completed
+ORD-106045,2026-10-10,East,Keyboard,1,129.00,refunded
+ORD-106055,2026-10-16,North,Mouse,3,49.00,cancelled
+ORD-106073,2026-10-15,West,Headset,4,159.00,completed
+ORD-106132,2026-10-12,South,Webcam,1,99.00,refunded
+ORD-106133,2026-10-13,North,Desk Lamp,1,59.90,completed
+ORD-106134,2026-10-20,South,Keyboard,3,129.00,completed
+ORD-106163,2026-10-06,North,Mouse,1,49.00,completed
+ORD-106184,2026-10-07,West,Keyboard,1,129.00,completed
+ORD-106201,2026-10-26,West,Cable Kit,1,24.00,completed
+ORD-106232,29-10-2026,East,Keyboard,1,129.00,completed
+ORD-106256,10-10-2026,East,Desk Lamp,4,59.90,completed
+ORD-106268,2026-10-06,South,Monitor Arm,2,189.00,completed
+ORD-106272,2026-10-20,North,Cable Kit,1,24.00,completed
+ORD-106291,24-10-2026,East,Notebook Pack,1,12.50,completed
+ORD-106294,2026-10-30,South,Keyboard,2,129.00,completed
+ORD-106300,2026-10-10,West,Whiteboard,3,349.00,completed
+ORD-106318,2026-10-15,West,Desk Lamp,2,59.90,completed
+ORD-118226,2026-10-31,North,Office Chair,1,899.00,completed
+ORD-106352,2026-10-10,North,Mouse,2,49.00,completed
+ORD-106394,28-10-2026,East,Keyboard,1,129.00,completed
+ORD-106406,2026-10-09,South,Cable Kit,2,24.00,completed
+ORD-106415,24-10-2026,East,Webcam,1,99.00,refunded
+ORD-106424,2026-10-09,North,Notebook Pack,2,12.50,completed
+ORD-106456,2026-10-08,North,Keyboard,1,129.00,completed
+ORD-106482,2026-10-28, North,USB-C Dock,1,279.00,completed
+ORD-106497,2026-10-04,East,Keyboard,1,129.00,completed
+ORD-106533,13-10-2026,East,Mouse,1,49.00,completed
+ORD-106534,2026-10-15,South,Desk Lamp,2,59.90,completed
+ORD-106542,2026-10-05,North,Notebook Pack,3,12.50,completed
+ORD-106632,22-10-2026,East,Keyboard,1,129.00,completed
+ORD-106634,2026-10-24,north,Standing Desk,2,"1,249.00",completed
+ORD-106636,2026-10-02,South,Notebook Pack,1,12.50,completed
+ORD-106658,2026-10-31,North,Notebook Pack,1,12.50,completed
+ORD-106667,2026-10-15,North,Mouse,1,49.00,completed
+ORD-106685,20-10-2026,East,Keyboard,1,129.00,cancelled
+ORD-106689,2026-10-20,South,Mouse,1,49.00,completed
+ORD-106700,2026-10-25,North,USB-C Dock,1,279.00,Completed
+ORD-106751,2026-10-17,South,Headset,2,159.00,completed
+ORD-106771,2026-10-07,East,Keyboard,1,129.00,completed
+ORD-106780,2026-10-19,North,Keyboard,1,129.00,completed
+ORD-106794,2026-10-02,North,Notebook Pack,1,12.50,cancelled
+ORD-106801,2026-10-30,West,Office Chair,3,899.00,completed
+ORD-106818,2026-10-20,South,Mouse,3,49.00,completed
+ORD-106834,2026-10-09,West,Monitor Arm,4,189.00,completed
+ORD-106888,2026-10-17,East,Whiteboard,3,349.00,completed
+ORD-106904,2026-10-25,West,Mouse,1,49.00,completed
+ORD-106934,2026-10-29,South,Monitor Arm,2,189.00,completed
+ORD-106945,2026-10-05,East,Cable Kit,4,24.00,completed
+ORD-106955,25-10-2026,East,Monitor Arm,1,189.00,completed
+ORD-106986,2026-10-22,north,Keyboard,2,129.00,completed
+ORD-106995,2026-10-14,North,Headset,2,159.00,completed
+ORD-107029,2026-10-23,SOUTH ,Webcam,2,99.00,completed
+ORD-107046,2026-10-02,East,Keyboard,1,129.00,cancelled
+ORD-107095,2026-10-14,Central,Keyboard,1,129.00,completed
+ORD-107109,2026-10-27,South,Notebook Pack,1,12.50,completed
+ORD-107154,2026-10-05,N,Office Chair,5,899.00,completed
+ORD-107180,2026-10-20,North,Monitor Arm,3,189.00,completed
+ORD-107186,2026-10-17,West,Monitor Arm,2,189.00,completed
+ORD-107192,21-10-2026,East,Headset,1,159.00,completed
+ORD-107195,16-10-2026,East,Notebook Pack,3,12.50,completed
+ORD-107210,2026-10-05,West,Cable Kit,1,24.00,completed
+ORD-107214,29-10-2026,East,Mouse,4,49.00,completed
+ORD-107224,2026-10-25,North,Notebook Pack,1,12.50,cancelled
+ORD-107242,2026-10-26,East,Standing Desk,1,"1,249.00",completed
+ORD-107300,2026-10-25,North,Office Chair,2,899.00,completed
+ORD-107306,21-10-2026,East,Webcam,1,99.00,completed
+ORD-107321,2026-10-29,West ,Notebook Pack,5,12.50,completed
+ORD-107329,14-10-2026,East,Notebook Pack,1,12.50,completed
+ORD-107355,2026-10-18,East,Cable Kit,2,24.00,completed
+ORD-107358,2026-10-30,North,Notebook Pack,2,12.50,completed
+ORD-107367,2026-10-04,North,Notebook Pack,4,12.50,completed
+ORD-107391,2026-10-26,South,Webcam,3,99.00,completed
+ORD-107418,2026-10-27,East,Webcam,2,99.00,completed
+ORD-107439,2026-10-01,South,Office Chair,1,899.00,completed
+ORD-107459,27-10-2026,East,Cable Kit,1,24.00,completed
+ORD-107465,2026-10-07,West,Standing Desk,1,"1,249.00",completed
+ORD-107516,01-10-2026,East,Desk Lamp,1,59.90,completed
+ORD-107529,2026-10-07,South,Headset,1,159.00,completed
+ORD-107531,2026-10-14,South,Cable Kit,1,24.00,completed
+ORD-107547,2026-10-03,East,Keyboard,1,129.00,completed
+ORD-107577,01-10-2026,East,Standing Desk,3,"1,249.00",completed
+ORD-107603,2026-10-03,West,Webcam,2,99.00,cancelled
+ORD-107604,2026-10-29,East,Whiteboard,1,349.00,completed
+ORD-107618,15-10-2026,East,Webcam,1,99.00,completed
+ORD-107658,2026-10-15,South,Monitor Arm,2,189.00,cancelled
+ORD-107676,2026-10-23,South,Desk Lamp,1,59.90,completed
+ORD-107701,2026-10-15,South,Keyboard,2,129.00,completed
+ORD-107703,2026-10-24,West,Keyboard,1,129.00,completed
+ORD-107704,2026-10-17,South,Webcam,2,99.00,completed
+ORD-107711,2026-10-20,North,Notebook Pack,2,12.50,completed
+ORD-107730,2026-10-08,East,Headset,2,159.00,completed
+ORD-107749,2026-10-01,South,Mouse,3,49.00,completed
+ORD-107758,2026-10-15,South,Whiteboard,3,349.00,completed
+ORD-107762,2026-10-20,South,Cable Kit,4,24.00,completed
+ORD-107809,2026-10-03,North,Monitor Arm,3,189.00,completed
+ORD-107825,2026-10-26,West,Cable Kit,1,24.00,refunded
+ORD-107839,2026-10-10,North,USB-C Dock,1,279.00,completed
+ORD-107849,2026-10-02,North,Whiteboard,1,349.00,cancelled
+ORD-107861,2026-10-15,South,Notebook Pack,1,12.50,completed
+ORD-107909,2026-10-25,West,Mouse,2,N/A,completed
+ORD-107923,2026-10-10,West,Office Chair,1,899.00,completed
+ORD-107980,05-10-2026,East,Webcam,2,99.00,completed
+ORD-107991,2026-10-16,South,Standing Desk,1,"1,249.00",completed
+ORD-108002,2026-10-08,North,Cable Kit,1,24.00,completed
+ORD-108005,2026-10-16,North,Mouse,2,49.00,completed
+ORD-108026,2026-10-08,West,Cable Kit,2,24.00,completed
+ORD-108044,2026-10-28,South,Office Chair,2,899.00,completed
+ORD-108064,2026-10-21,West,Mouse,2,49.00,completed
+ORD-108109,2026-10-18,West,Notebook Pack,1,12.50,completed
+ORD-108116,2026-10-08,East,Monitor Arm,1,189.00,completed
+ORD-108124,2026-10-30,South,Desk Lamp,3,59.90,completed
+ORD-108153,2026-10-15,South,USB-C Dock,2,279.00,completed
+ORD-108170,2026-10-02,West,Mouse,3,49.00,refunded
+ORD-108171,2026-10-23,East,Notebook Pack,1,12.50,completed
+ORD-108207,2026-10-03,North,Mouse,2,49.00,completed
+ORD-108239,2026-10-21,North,Whiteboard,2,349.00,completed
+ORD-108255,04-10-2026,East,Webcam,1,99.00,completed
+ORD-108303,2026-10-12,West,Notebook Pack,1,12.50,completed
+ORD-108318,2026-10-01,East,Whiteboard,2,349.00,completed
+ORD-108331,2026-10-02,West,Keyboard,2,129.00,completed
+ORD-108336,2026-10-10,South,Keyboard,1,129.00,completed
+ORD-108351,2026-10-16,North,Standing Desk,1,"1,249.00",completed
+ORD-108365,2026-10-25,North,Keyboard,2,129.00,completed
+ORD-108374,2026-10-17,South,Cable Kit,1,24.00,completed
+ORD-108384,2026-10-04,North,Cable Kit,1,24.00,completed
+ORD-108418,2026-10-03, North,Notebook Pack,2,12.50,completed
+ORD-108438,2026-10-07,North,USB-C Dock,3,279.00,completed
+ORD-108472,2026-10-13,North,Cable Kit,3,24.00,completed
+ORD-108485,2026-10-25,east,Mouse,3,49.00,completed
+ORD-108503,2026-10-22,North,Standing Desk,1,"1,249.00",completed
+ORD-108508,2026-10-28,South,USB-C Dock,1,279.00,completed
+ORD-108560,2026-10-05,South,USB-C Dock,1,279.00,completed
+ORD-108564,2026-10-30, North,Desk Lamp,1,59.90,cancelled
+ORD-108580,06-10-2026,East,Desk Lamp,2,59.90,completed
+ORD-108607,2026-10-25,North,Notebook Pack,4,12.50,completed
+ORD-119500,2026-10-27,SOUTH ,Standing Desk,1,"1,249.00",completed
+ORD-108632,2026-10-25,West,Cable Kit,1,24.00,cancelled
+ORD-108638,2026-10-01,North,Notebook Pack,1,12.50,completed
+ORD-108657,2026-10-28,West,Monitor Arm,1,189.00,completed
+ORD-108692,28-10-2026,East,Mouse,1,49.00,completed
+ORD-108705,2026-10-30,South,Office Chair,1,899.00,completed
+ORD-108721,2026-10-24,North,Mouse,3,49.00,completed
+ORD-108735,25-10-2026,E,Mouse,4,49.00,completed
+ORD-108736,2026-10-23,South,Cable Kit,1,24.00,completed
+ORD-108763,2026-10-23,East,Cable Kit,3,24.00,completed
+ORD-108797,2026-10-28,East,Notebook Pack,5,12.50,completed
+ORD-108826,2026-10-04,West,Monitor Arm,1,189.00,completed
+ORD-108840,2026-10-03,South,Notebook Pack,1,12.50,completed
+ORD-108842,2026-10-20,North,Monitor Arm,1,189.00,cancelled
+ORD-108875,2026-10-09,West,Office Chair,1,899.00,completed
+ORD-108958,2026-10-12,E,Cable Kit,5,24.00,completed
+ORD-108983,2026-10-09,West,USB-C Dock,3,279.00,completed
+ORD-108995,2026-10-19,North,Monitor Arm,2,189.00,Completed
+ORD-108998,2026-10-25,South,Webcam,1,99.00,completed
+ORD-109000,2026-10-06,West,Desk Lamp,5,59.90,completed
+ORD-109038,2026-10-05,South,Headset,1,159.00,completed
+ORD-109041,2026-10-16,West,Cable Kit,1,24.00,refunded
+ORD-109043,2026-10-06,South,USB-C Dock,1,279.00,completed
+ORD-109051,2026-10-29,West,Office Chair,3,899.00,completed
+ORD-109053,2026-10-19,North,Desk Lamp,1,59.90,completed
+ORD-109079,2026-10-14,West,Standing Desk,2,"1,249.00",completed
+ORD-109084,2026-10-26,West,Standing Desk,3,"1,249.00",completed
+ORD-109097,20-10-2026,East,Keyboard,1,129.00,cancelled
+ORD-109129,2026-10-17,West,Desk Lamp,1,59.90,completed
+ORD-109146,2026-10-20,West,USB-C Dock,3,279.00,cancelled
+ORD-109153,2026-10-09,West,Mouse,2,49.00,completed
+ORD-109172,2026-10-07,West,Cable Kit,3,24.00,completed
+ORD-109186,2026-10-04,South,Keyboard,4,129.00,completed
+ORD-109216,22-10-2026,E,Office Chair,5,899.00,completed
+ORD-109230,2026-10-05,East,Notebook Pack,1,12.50,completed
+ORD-109264,2026-10-30,West ,Keyboard,1,129.00,completed
+ORD-109296,2026-10-28,South,Office Chair,1,899.00,completed
+ORD-102873,2026-10-21,West,USB-C Dock,2,279.00,cancelled
+ORD-109322,2026-10-06,South,Notebook Pack,1,12.50,completed
+ORD-109341,2026-10-01,South,Office Chair,5,899.00,completed
+ORD-109388,2026-10-21,East,Webcam,1,99.00,completed
+ORD-109432,2026-10-28,South,Desk Lamp,5,59.90,completed
+ORD-109466,2026-10-01,South,Headset,1,159.00,completed
+ORD-109524,2026-10-10,South,USB-C Dock,1,279.00,completed
+ORD-109584,2026-10-09,East,Keyboard,4,129.00,completed
+ORD-109593,2026-10-21,South,USB-C Dock,1,279.00,completed
+ORD-109605,2026-10-04,West,Keyboard,1,129.00,cancelled
+ORD-109612,2026-10-24,West,Standing Desk,1,"1,249.00",completed
+ORD-109613,2026-10-19,West,Keyboard,1,129.00,completed
+ORD-109616,2026-10-28,North,Headset,2,159.00,completed
+ORD-109676,2026-10-29,North,Notebook Pack,3,12.50,completed
+ORD-109704,2026-10-30,West,USB-C Dock,4,279.00,completed
+ORD-109754,2026-10-14,South,Keyboard,4,129.00,completed
+ORD-109779,2026-10-25,West,Monitor Arm,1,189.00,completed
+ORD-109810,2026-10-27,North,Keyboard,1,129.00,completed
+ORD-109824,2026-10-13,North,Mouse,1,49.00,completed
+ORD-109836,2026-10-06,North,Desk Lamp,1,59.90,completed
+ORD-109845,2026-10-12,South,Desk Lamp,2,59.90,completed
+ORD-109868,2026-10-23,North,Mouse,2,49.00,completed
+ORD-109874,2026-10-09,North,USB-C Dock,2,279.00,completed
+ORD-109886,2026-10-27,West,Standing Desk,2,"1,249.00",completed
+ORD-109994,22-10-2026,East,Keyboard,1,129.00,completed
+ORD-110013,2026-10-03,North,Webcam,2,99.00,completed
+ORD-110017,2026-10-27,West,Monitor Arm,2,189.00,completed
+ORD-110034,01-10-2026,East,Whiteboard,3,349.00,completed
+ORD-110071,2026-10-20,West,USB-C Dock,1,279.00,completed
+ORD-110102,2026-10-25,East,Cable Kit,1,24.00,Cancelled
+ORD-110109,11-10-2026,East,Mouse,1,49.00,refunded
+ORD-110130,2026-10-11,East,Mouse,2,49.00,completed
+ORD-110134,2026-10-30,South,USB-C Dock,2,279.00,completed
+ORD-110141,2026-10-17,North,Whiteboard,1,349.00,completed
+ORD-110145,2026-10-18,SOUTH ,Mouse,1,49.00,completed
+ORD-110172,2026-10-24,North,Keyboard,1,129.00,refunded
+ORD-110189,2026-10-03,South,Mouse,2,49.00,completed
+ORD-110194,2026-10-26,East,Keyboard,5,129.00,completed
+ORD-110206,2026-10-02, North,USB-C Dock,2,279.00,completed
+ORD-110217,2026-10-31,East,Monitor Arm,1,189.00,completed
+ORD-110218,08-10-2026,East,Headset,1,159.00,completed
+ORD-110244,2026-10-22,East,Desk Lamp,1,59.90,completed
+ORD-110270,2026-10-25,South,Monitor Arm,5,189.00,refunded
+ORD-110287,2026-10-19,South,Keyboard,1,129.00,cancelled
+ORD-110312,2026-10-30,North,USB-C Dock,1,279.00,completed
+ORD-110330,2026-10-17,South,Mouse,5,49.00,completed
+ORD-110338,2026-10-22,North,Standing Desk,1,"1,249.00",completed
+ORD-110340,2026-10-04,North,Whiteboard,3,349.00,completed
+ORD-110352,2026-10-08,South,Headset,2,159.00,completed
+ORD-110377,2026-10-14,South,Desk Lamp,5,59.90,completed
+ORD-110456,2026-10-23,South,Monitor Arm,2,189.00,completed
+ORD-110516,2026-10-19,North,Cable Kit,1,24.00,refunded
+ORD-110528,2026-10-25,East,Mouse,4,49.00,completed
+ORD-110557,2026-10-07,North,Keyboard,1,129.00,cancelled
+ORD-110561,2026-10-08,South,Headset,1,159.00,completed
+ORD-110613,2026-10-19,North,Mouse,1,49.00,completed
+ORD-110616,2026-10-12,South,USB-C Dock,1,279.00,completed
+ORD-110618,2026-10-16,West,USB-C Dock,2,279.00,completed
+ORD-110629,2026-10-30,North,Keyboard,3,129.00,completed
+ORD-110665,2026-10-01,South,Standing Desk,1,"1,249.00",completed
+ORD-110666,2026-10-20,East,Cable Kit,2,24.00,completed
+ORD-110669,2026-10-13,East,Mouse,2,49.00,completed
+ORD-110681,2026-10-20,South,Desk Lamp,1,59.90,completed
+ORD-110713,2026-10-26,South,Notebook Pack,1,12.50,completed
+ORD-110746,2026-10-23,West,Desk Lamp,2,59.90,completed
+ORD-110748,2026-10-02,South,Monitor Arm,2,189.00,completed
+ORD-110763,2026-10-21,East,Mouse,1,49.00,completed
+ORD-110770,2026-10-28,South,Webcam,1,99.00,completed
+ORD-110773,2026-10-29,East,Webcam,2,99.00,completed
+ORD-110792,2026-10-01,West,Notebook Pack,1,12.50,refunded
+ORD-110838,27-10-2026,East,Cable Kit,2,24.00,completed
+ORD-110886,2026-10-11,South,Desk Lamp,2,59.90,completed
+ORD-110899,2026-10-03,South,Office Chair,5,899.00,completed
+ORD-110964,2026-10-02,West,Mouse,2,49.00,completed
+ORD-100338,2026-10-16,South,Desk Lamp,1,59.90,completed
+ORD-111025,2026-10-24,North,Desk Lamp,1,59.90,completed
+ORD-111033,2026-10-29,South,Mouse,5,49.00,completed
+ORD-111044,2026-10-12,North,Monitor Arm,1,189.00,completed
+ORD-104486,2026-10-27,North,Webcam,1,99.00,completed
+ORD-111087,25-10-2026,East,Headset,2,159.00,completed
+ORD-111090,2026-10-27,West,Standing Desk,1,"1,249.00",completed
+ORD-111120,2026-10-29,North,Keyboard,2,129.00,completed
+ORD-111123,2026-10-20,North,Keyboard,2,129.00,completed
+ORD-111132,15-10-2026,east,Keyboard,1,129.00,completed
+ORD-111138,2026-10-13,East,Cable Kit,1,24.00,cancelled
+ORD-111159,2026-10-29,South,Notebook Pack,3,12.50,completed
+ORD-111161,2026-10-27,West,Mouse,3,49.00,cancelled
+ORD-111171,2026-10-26,South,Keyboard,3,129.00,completed
+ORD-111180,2026-10-24,North,Desk Lamp,2,59.90,completed
+ORD-111198,2026-10-24,West,Monitor Arm,1,189.00,completed
+ORD-111224,2026-10-12,South,Notebook Pack,4,12.50,completed
+ORD-111238,2026-10-10,East,Webcam,1,99.00,completed
+ORD-111298,2026-10-06,west,Webcam,1,99.00,completed
+ORD-111350,2026-10-22,West,Notebook Pack,1,12.50,completed
+ORD-111444,2026-10-15,South,Office Chair,3,899.00,completed
+ORD-111465,2026-10-02,North,Whiteboard,1,349.00,completed
+ORD-103977,2026-10-21,North,Whiteboard,1,349.00,completed
+ORD-111496,2026-10-29,South,Mouse,1,49.00,completed
+ORD-111523,2026-10-25,North,Desk Lamp,1,59.90,completed
+ORD-111551,2026-10-31,North,Cable Kit,1,24.00,completed
+ORD-111568,2026-10-25,North,Keyboard,3,129.00,completed
+ORD-111569,2026-10-13,North,Mouse,2,49.00,completed
+ORD-111607,2026-10-18,North,Notebook Pack,2,12.50,completed
+ORD-111628,13-10-2026,East,USB-C Dock,2,279.00,completed
+ORD-111642,2026-10-08,North,Standing Desk,1,"1,249.00",completed
+ORD-111655,2026-10-06,East,Mouse,3,49.00,completed
+ORD-111656,2026-10-13,East,Headset,5,159.00,completed
+ORD-111672,20-10-2026,East,USB-C Dock,2,279.00,completed
+ORD-111709,2026-10-02,South,Office Chair,3,899.00,completed
+ORD-111716,2026-10-22,North,Notebook Pack,2,12.50,completed
+ORD-111719,2026-10-26,East,Cable Kit,1,24.00,completed
+ORD-111737,2026-10-24,South,Mouse,2,49.00,completed
+ORD-111745,2026-10-04,North,Cable Kit,1,24.00,cancelled
+ORD-111783,2026-10-10,West,Keyboard,1,129.00,completed
+ORD-111797,07-10-2026,East,Desk Lamp,1,59.90,completed
+ORD-111798,2026-10-28,North,Cable Kit,1,24.00,completed
+ORD-111808,2026-10-19,North,Office Chair,1,899.00,completed
+ORD-111843,14-10-2026,East,Mouse,1,49.00,completed
+ORD-111844,2026-10-03,North,Monitor Arm,1,189.00,completed
+ORD-111853,2026-10-25,South,Webcam,1,99.00,completed
+ORD-111854,2026-10-30,West,Keyboard,5,129.00,completed
+ORD-111863,2026-10-03,South,Webcam,1,99.00,completed
+ORD-111880,2026-10-02,North,Mouse,2,49.00,completed
+ORD-111882,2026-10-23,North,Mouse,3,49.00,completed
+ORD-111886,2026-10-09,South,Monitor Arm,1,189.00,completed
+ORD-111898,2026-10-08,South,Keyboard,3,129.00,completed
+ORD-111904,2026-10-20,East,Headset,4,159.00,Completed
+ORD-111912,2026-10-12,West,Whiteboard,3,349.00,completed
+ORD-111913,26-10-2026,East,Notebook Pack,1,12.50,completed
+ORD-111923,2026-10-11,South,Keyboard,4,129.00,completed
+ORD-111936,2026-10-03,South,Keyboard,1,129.00,completed
+ORD-108885,23-10-2026,East,Notebook Pack,1,12.50,refunded
+ORD-111963,2026-10-31,North,Mouse,1,49.00,completed
+ORD-111972,09-10-2026,East,Desk Lamp,1,59.90,refunded
+ORD-111992,2026-10-16,West,Desk Lamp,1,59.90,completed
+ORD-111999,05-10-2026,East,Desk Lamp,1,59.90,completed
+ORD-112058,30-10-2026,East,USB-C Dock,1,279.00,completed
+ORD-112059,2026-10-16,North,Mouse,1,49.00,completed
+ORD-112084,2026-10-07,East,Notebook Pack,1,12.50,completed
+ORD-112124,2026-10-09,West,Notebook Pack,1,12.50,completed
+ORD-112133,2026-10-07,West,Monitor Arm,1,189.00,completed
+ORD-112166,2026-10-28,South,Desk Lamp,1,59.90,completed
+ORD-112194,2026-10-04,West,Standing Desk,2,"1,249.00",completed
+ORD-112203,2026-10-03,South,Monitor Arm,1,189.00,completed
+ORD-112224,02-10-2026,East,Office Chair,3,899.00,completed
+ORD-112235,2026-10-12,East,Keyboard,3,129.00,completed
+ORD-112239,2026-10-29,East,Notebook Pack,5,12.50,refunded
+ORD-112290,2026-10-12,East,Office Chair,2,899.00,completed
+ORD-112309,2026-10-16,West,Headset,1,159.00,completed
+ORD-112318,2026-10-19,North,Keyboard,2,129.00,completed
+ORD-112349,2026-10-12,East,Keyboard,2,129.00,completed
+ORD-112426,2026-10-08,North,Office Chair,4,899.00,cancelled
+ORD-112441,2026-10-11,West,Office Chair,2,899.00,completed
+ORD-112445,2026-10-28,South,Keyboard,4,129.00,completed
+ORD-112477,2026-10-13,West,Cable Kit,2,24.00,completed
+ORD-112512,2026-10-24,South,Standing Desk,1,"1,249.00",cancelled
+ORD-112526,2026-10-17,East,Keyboard,1,129.00,refunded
+ORD-112552,2026-10-08,North,Keyboard,2,129.00,completed
+ORD-112567,2026-10-07,South,Desk Lamp,1,59.90,completed
+ORD-112576,06-10-2026,East,Office Chair,1,899.00,completed
+ORD-112577,2026-10-11,South,Monitor Arm,1,189.00,completed
+ORD-112586,2026-10-30,North,Standing Desk,5,"1,249.00",completed
+ORD-112610,2026-10-29,North,Mouse,1,49.00,completed
+ORD-112680,2026-10-16,South,Headset,1,159.00,completed
+ORD-112684,2026-10-26,East,Webcam,4,99.00,completed
+ORD-112691,2026-10-21,North,Desk Lamp,1,59.90,completed
+ORD-112706,2026-10-14,South,Cable Kit,3,24.00,completed
+ORD-112712,2026-10-27,north,Office Chair,1,899.00,completed
+ORD-112731,10-10-2026,East,Mouse,1,49.00,completed
+ORD-112737,2026-10-25,North,Keyboard,2,129.00,refunded
+ORD-112755,2026-10-19,North,Keyboard,2,129.00,completed
+ORD-112763,2026-10-21,South,Headset,1,159.00,completed
+ORD-112844,2026-10-18, North,Mouse,3,49.00,completed
+ORD-112847,2026-10-14,East,Notebook Pack,2,12.50,completed
+ORD-112856,2026-10-20,South,Keyboard,1,129.00,completed
+ORD-112911,2026-10-07,West,Desk Lamp,1,59.90,refunded
+ORD-112969,2026-10-02,East,Webcam,1,99.00,completed
+ORD-112975,2026-10-07,West,Cable Kit,1,24.00,completed
+ORD-112995,2026-10-27,North,Keyboard,1,129.00,cancelled
+ORD-113027,11-10-2026,East,Keyboard,1,129.00,completed
+ORD-113069,2026-10-13,West,Cable Kit,1,24.00,completed
+ORD-113075,2026-10-28,North,USB-C Dock,2,279.00,cancelled
+ORD-113079,2026-10-12,West,Keyboard,1,129.00,completed
+ORD-113086,2026-10-23,North,Headset,1,159.00,completed
+ORD-113099,23-10-2026,East,Monitor Arm,1,189.00,completed
+ORD-113100,24-10-2026,East,Standing Desk,1,"1,249.00",completed
+ORD-113121,2026-10-29,West,Monitor Arm,1,189.00,completed
+ORD-113132,2026-10-05,North,Mouse,1,49.00,completed
+ORD-113139,2026-10-31,South,Keyboard,4,129.00,completed
+ORD-113148,2026-10-17,East,Headset,1,159.00,refunded
+ORD-113197,2026-10-04,South,Desk Lamp,1,59.90,completed
+ORD-113218,2026-10-22,South,Desk Lamp,4,59.90,completed
+ORD-113227,2026-10-20,East,Mouse,1,49.00,completed
+ORD-113352,24-10-2026,East,Mouse,1,49.00,completed
+ORD-113353,23-10-2026,East,USB-C Dock,1,279.00,completed
+ORD-113370,2026-10-10,East,Mouse,1,49.00,completed
+ORD-113388,2026-10-01,North,Desk Lamp,1,59.90,completed
+ORD-113462,2026-10-19,South,USB-C Dock,1,279.00,completed
+ORD-113482,2026-10-23,South,Office Chair,1,899.00,completed
+ORD-113483,2026-10-06,North,Monitor Arm,2,189.00,completed
+ORD-113522,2026-10-08,East,Webcam,1,99.00,completed
+ORD-113525,2026-10-14,South,Cable Kit,2,24.00,completed
+ORD-113544,2026-10-09,South,Mouse,5,49.00,completed
+ORD-113564,2026-10-16,West,Notebook Pack,1,12.50,completed
+ORD-113583,2026-10-06,North,Webcam,1,99.00,completed
+ORD-113596,2026-10-03,South,Mouse,3,49.00,cancelled
+ORD-113614,2026-10-03,North,Desk Lamp,3,59.90,completed
+ORD-113620,2026-10-02,East,USB-C Dock,4,279.00,completed
+ORD-113621,2026-10-03,East,USB-C Dock,1,279.00,completed
+ORD-113648,2026-10-22,West,Standing Desk,1,"1,249.00",completed
+ORD-113654,31-10-2026,East,Webcam,5,99.00,completed
+ORD-113673,2026-10-27,East,Webcam,2,99.00,completed
+ORD-113690,28-10-2026,East,Keyboard,1,129.00,completed
+ORD-113710,01-10-2026,East,Mouse,4,49.00,completed
+ORD-113725,2026-10-07,West,Webcam,1,99.00,completed
+ORD-113777,2026-10-03,South,Keyboard,2,N/A,completed
+ORD-113796,2026-10-17,West,Cable Kit,1,24.00,completed
+ORD-113797,2026-10-03,North,Webcam,1,99.00,completed
+ORD-113827,2026-10-27,North,Webcam,3,99.00,completed
+ORD-113849,2026-10-22,West,Headset,1,159.00,completed
+ORD-113897,2026-10-05,West,Monitor Arm,1,189.00,completed
+ORD-113912,22-10-2026,East,Webcam,4,99.00,completed
+ORD-113939,2026-10-02,East,Cable Kit,1,24.00,completed
+ORD-113943,2026-10-01,North,Standing Desk,4,"1,249.00",completed
+ORD-113953,2026-10-16,North,Headset,1,159.00,completed
+ORD-113954,2026-10-21,South,Mouse,3,49.00,completed
+ORD-113957,2026-10-20,west,Mouse,3,49.00,completed
+ORD-113976,2026-10-16,South,Desk Lamp,3,59.90,completed
+ORD-114048,2026-10-08,South,Keyboard,1,129.00,completed
+ORD-114060,2026-10-13,South,Keyboard,2,129.00,completed
+ORD-114072,2026-10-29,South,Notebook Pack,2,12.50,cancelled
+ORD-114075,2026-10-16,South,USB-C Dock,2,279.00,completed
+ORD-114085,2026-10-24,South,Headset,1,159.00,completed
+ORD-114124,2026-10-03,West,Mouse,4,49.00,completed
+ORD-114125,2026-10-28,North,Cable Kit,-1,24.00,completed
+ORD-114142,2026-10-27,East,USB-C Dock,1,279.00,completed
+ORD-114153,2026-10-13,North,Cable Kit,1,24.00,completed
+ORD-114155,2026-10-22,West,Monitor Arm,4,189.00,completed
+ORD-114163,07-10-2026,East,USB-C Dock,5,279.00,completed
+ORD-114205,22-10-2026,East,Monitor Arm,5,189.00,completed
+ORD-114237,2026-10-18,North,Notebook Pack,1,12.50,completed
+ORD-114242,2026-10-06,West,Standing Desk,1,"1,249.00",completed
+ORD-114275,08-10-2026,East,USB-C Dock,3,279.00,completed
+ORD-114343,30-10-2026,East,Webcam,4,99.00,completed
+ORD-114408,2026-10-30,North,Monitor Arm,3,189.00,completed
+ORD-114454,2026-10-31,West,Webcam,4,99.00,completed
+ORD-114457,2026-10-01,North,Office Chair,1,899.00,completed
+ORD-114473,2026-10-08,West,Notebook Pack,4,12.50,completed
+ORD-114483,10-10-2026,East,Webcam,1,99.00,completed
+ORD-114505,2026-10-25,West,Monitor Arm,1,189.00,completed
+ORD-114508,2026-10-09,East,Desk Lamp,1,59.90,completed
+ORD-114514,2026-10-26,West ,Mouse,1,49.00,completed
+ORD-114576,2026-10-12,North,Monitor Arm,1,189.00,completed
+ORD-114580,2026-10-01,North,Cable Kit,1,24.00,completed
+ORD-114584,2026-10-14,North,Headset,4,159.00,completed
+ORD-114586,2026-10-19,West,Keyboard,1,129.00,completed
+ORD-114587,2026-10-28,east,Notebook Pack,4,12.50,completed
+ORD-114611,2026-10-20,South,Office Chair,1,899.00,completed
+ORD-114616,2026-10-04,East,Mouse,1,49.00,completed
+ORD-114626,2026-10-27,South,Headset,1,159.00,completed
+ORD-114699,2026-10-13,East,Desk Lamp,1,59.90,completed
+ORD-114712,03-10-2026,East,Keyboard,5,129.00,completed
+ORD-114748,2026-10-31,East,Desk Lamp,2,59.90,completed
+ORD-114749,2026-10-31,West,Cable Kit,4,24.00,completed
+ORD-114761,2026-10-09,East,Keyboard,1,129.00,completed
+ORD-114772,2026-10-11,North,Notebook Pack,2,12.50,completed
+ORD-114777,02-10-2026,East,Mouse,1,49.00,completed
+ORD-114783,12-10-2026,East,Monitor Arm,2,189.00,completed
+ORD-114809,2026-10-08,SOUTH ,Headset,3,159.00,completed
+ORD-114813,14-10-2026,East,Headset,2,159.00,completed
+ORD-114840,2026-10-30,South,Keyboard,2,129.00,completed
+ORD-114873,2026-10-07,West,Monitor Arm,3,189.00,refunded
+ORD-114879,2026-10-02,South,Monitor Arm,2,189.00,completed
+ORD-114912,2026-10-14,North,Cable Kit,4,24.00,completed
+ORD-114914,2026-10-09,North,Headset,1,159.00,completed
+ORD-114918,2026-10-10,East,Desk Lamp,3,59.90,completed
+ORD-114965,2026-10-02,East,Desk Lamp,2,59.90,refunded
+ORD-114980,02-10-2026,East,Desk Lamp,1,59.90,completed
+ORD-114992,2026-10-13,East,Standing Desk,2,"1,249.00",completed
+ORD-115000,2026-10-31,North,Cable Kit,2,24.00,completed
+ORD-115008,2026-10-22,North,Keyboard,1,129.00,completed
+ORD-115029,2026-10-04,North,Keyboard,1,129.00,completed
+ORD-115057,2026-10-04,West,Notebook Pack,2,12.50,completed
+ORD-115098,2026-10-23,East,Notebook Pack,2,12.50,completed
+ORD-115138,2026-10-04,North,Notebook Pack,1,12.50,completed
+ORD-115151,2026-10-02,North,USB-C Dock,2,279.00,completed
+ORD-115168,2026-10-07,South,Whiteboard,1,349.00,completed
+ORD-115180,2026-10-09,North,Desk Lamp,1,59.90,completed
+ORD-115203,2026-10-18,North,Keyboard,1,129.00,completed
+ORD-115230,2026-10-30,East,Standing Desk,4,"1,249.00",completed
+ORD-115241,2026-10-03,South,Cable Kit,1,24.00,cancelled
+ORD-115266,2026-10-17,North,Office Chair,2,899.00,completed
+ORD-115286,2026-10-13,South,Cable Kit,4,24.00,completed
+ORD-115289,2026-10-15,North,Headset,1,159.00,completed
+ORD-115295,2026-10-23,South,Monitor Arm,1,189.00,completed
+ORD-110320,2026-10-18,North,Keyboard,2,129.00,completed
+ORD-115311,2026-10-30,South,Keyboard,2,129.00,completed
+ORD-115344,2026-10-26,North,Webcam,2,99.00,completed
+ORD-115353,2026-10-13,SOUTH ,Monitor Arm,3,189.00,completed
+ORD-115373,2026-10-21,South,Standing Desk,5,"1,249.00",completed
+ORD-115376,2026-10-22,North,Keyboard,2,129.00,completed
+ORD-115399,2026-10-08,North,Headset,1,159.00,completed
+ORD-115412,2026-10-29,South,Cable Kit,1,24.00,completed
+ORD-115429,2026-10-07,South,Desk Lamp,4,59.90,completed
+ORD-115435,2026-10-11,North,Keyboard,3,129.00,completed
+ORD-115452,2026-10-18,South,USB-C Dock,1,279.00,completed
+ORD-115466,2026-10-18,North,Webcam,2,99.00,completed
+ORD-115467,2026-10-24,North,Cable Kit,1,24.00,completed
+ORD-115513,21-10-2026,East,Mouse,4,49.00,cancelled
+ORD-115529,2026-10-12,North,Standing Desk,2,"1,249.00",completed
+ORD-115557,2026-10-25,North,Notebook Pack,1,12.50,completed
+ORD-115562,2026-10-05,North,Cable Kit,1,24.00,completed
+ORD-115565,2026-10-24,North,Cable Kit,3,24.00,completed
+ORD-111502,2026-10-11, North,Monitor Arm,2,189.00,cancelled
+ORD-115743,2026-10-17,North,Mouse,1,49.00,completed
+ORD-115756,2026-10-03,North,Monitor Arm,1,189.00,completed
+ORD-115767,2026-10-31, North,Standing Desk,3,"1,249.00",completed
+ORD-115785,2026-10-15,East,Notebook Pack,5,12.50,cancelled
+ORD-115811,2026-10-11,South,Cable Kit,1,24.00,completed
+ORD-115835,2026-10-16,East,Desk Lamp,1,59.90,completed
+ORD-115861,2026-10-08,North,Desk Lamp,2,59.90,Completed
+ORD-115892,2026-10-01,South,USB-C Dock,1,279.00,cancelled
+ORD-115898,2026-10-26,east,Notebook Pack,1,12.50,completed
+ORD-115911,2026-10-04,South,Keyboard,1,129.00,completed
+ORD-115938,2026-10-20,South,Mouse,1,49.00,Completed
+ORD-115969,2026-10-21,West,Office Chair,1,899.00,completed
+ORD-116029,2026-10-07,East,Mouse,3,49.00,completed
+ORD-116081,2026-10-06,East,Mouse,1,49.00,completed
+ORD-116092,2026-10-14,South,Webcam,4,99.00,completed
+ORD-116145,2026-10-03,North,Keyboard,3,129.00,completed
+ORD-116147,2026-10-14,South,USB-C Dock,3,279.00,completed
+ORD-116186,14-10-2026,East,Notebook Pack,4,12.50,completed
+ORD-116208,2026-10-18,West,Desk Lamp,1,59.90,completed
+ORD-116251,2026-10-29,North,Mouse,2,49.00,completed
+ORD-116270,2026-10-17,North,Whiteboard,1,349.00,cancelled
+ORD-116294,06-10-2026,East,Desk Lamp,1,59.90,completed
+ORD-116301,2026-10-25,East,Monitor Arm,1,189.00,completed
+ORD-116322,2026-10-20,north,Webcam,1,99.00,completed
+ORD-116333,2026-10-14,South,Headset,1,159.00,completed
+ORD-116369,2026-10-23,South,Desk Lamp,1,59.90,cancelled
+ORD-116390,2026-10-03,North,Whiteboard,1,349.00,completed
+ORD-116426,2026-10-24,East,Mouse,1,49.00,refunded
+ORD-116429,2026-10-29,North,Notebook Pack,4,12.50,completed
+ORD-116461,2026-10-28,North,Headset,2,159.00,completed
+ORD-116490,13-10-2026,East,Keyboard,2,129.00,completed
+ORD-116497,2026-10-22,West,Desk Lamp,1,59.90,completed
+ORD-116510,2026-10-01,East,Office Chair,2,899.00,completed
+ORD-116515,2026-10-09,South,Mouse,1,49.00,completed
+ORD-116563,11-10-2026,East,Standing Desk,1,"1,249.00",cancelled
+ORD-116571,2026-10-07,North,Monitor Arm,1,189.00,completed
+ORD-116572,2026-10-27,North,Keyboard,3,129.00,completed
+ORD-116600,2026-10-29,South,Keyboard,2,129.00,completed
+ORD-116623,2026-10-01,North,Mouse,1,49.00,Completed
+ORD-116652,2026-10-11,South,Mouse,5,49.00,completed
+ORD-116700,2026-10-22,North,Notebook Pack,1,12.50,completed
+ORD-116708,2026-10-02,West,Headset,2,159.00,completed
+ORD-116769,2026-10-04,East,Keyboard,1,129.00,completed
+ORD-116771,2026-10-04,North,Monitor Arm,1,189.00,completed
+ORD-116788,2026-10-29,North,Office Chair,3,899.00,completed
+ORD-116829,2026-10-14,East,Notebook Pack,2,12.50,completed
+ORD-116838,2026-10-07,East,USB-C Dock,1,279.00,completed
+ORD-116299,2026-10-12,East,Headset,2,159.00,completed
+ORD-116891,2026-10-04,West,Webcam,1,99.00,completed
+ORD-116895,2026-10-26,North,Keyboard,2,129.00,completed
+ORD-116910,2026-10-10,West,Standing Desk,3,"1,249.00",completed
+ORD-116914,2026-10-13,South,Desk Lamp,2,59.90,completed
+ORD-116938,2026-10-24,South,Desk Lamp,2,59.90,completed
+ORD-116986,2026-10-31,South,Mouse,1,49.00,completed
+ORD-116989,2026-10-12,North,Keyboard,2,129.00,cancelled
+ORD-117032,2026-10-01,East,Webcam,2,99.00,completed
+ORD-117053,2026-10-15,East,Desk Lamp,2,59.90,completed
+ORD-117078,2026-10-08,East,Notebook Pack,1,12.50,completed
+ORD-117079,2026-10-23,South,Webcam,4,99.00,completed
+ORD-117089,26-10-2026,East,Cable Kit,2,24.00,completed
+ORD-117102,2026-10-04,North,USB-C Dock,1,279.00,completed
+ORD-117111,2026-10-27,North,Mouse,2,49.00,cancelled
+ORD-117142,2026-10-02,West,USB-C Dock,4,279.00,completed
+ORD-117161,2026-10-29,South,Webcam,2,99.00,completed
+ORD-117163,2026-10-12,North,Standing Desk,2,"1,249.00",cancelled
+ORD-117172,2026-10-09,North,Cable Kit,2,24.00,completed
+ORD-117188,2026-10-26,South,Notebook Pack,2,12.50,completed
+ORD-117229,2026-10-16,South,Webcam,5,99.00,completed
+ORD-117248,2026-10-12,North,Office Chair,1,899.00,cancelled
+ORD-117254,2026-10-09,West,Webcam,5,99.00,completed
+ORD-117282,2026-10-27,East,USB-C Dock,1,279.00,completed
+ORD-117317,2026-10-29,North,Keyboard,1,129.00,completed
+ORD-117324,2026-10-01,South,Keyboard,1,129.00,completed
+ORD-117364,2026-10-08,North,Standing Desk,1,"1,249.00",completed
+ORD-117400,2026-10-10,North,USB-C Dock,5,279.00,completed
+ORD-117401,2026-10-28,West ,Desk Lamp,2,59.90,completed
+ORD-117438,03-10-2026,east,Mouse,1,49.00,cancelled
+ORD-117456,2026-10-17,South,Headset,1,159.00,completed
+ORD-117459,2026-10-12,North,Headset,4,159.00,completed
+ORD-117479,2026-10-28,West,USB-C Dock,1,279.00,cancelled
+ORD-117506,2026-10-28,South,Notebook Pack,1,12.50,refunded
+ORD-117538,20-10-2026,East,Monitor Arm,1,189.00,completed
+ORD-117550,2026-10-12,South,Headset,1,159.00,cancelled
+ORD-117551,2026-10-15,East,Notebook Pack,1,12.50,completed
+ORD-117553,14-10-2026,East,Cable Kit,1,24.00,cancelled
+ORD-117554,2026-10-26,North,Keyboard,1,129.00,completed
+ORD-117565,2026-10-29,North,Cable Kit,1,24.00,completed
+ORD-114319,2026-10-03,West,Desk Lamp,5,59.90,completed
+ORD-117580,01-10-2026,East,Desk Lamp,1,59.90,cancelled
+ORD-117623,2026-10-21,West,Headset,2,159.00,cancelled
+ORD-117626,2026-10-30,South,Headset,2,159.00,completed
+ORD-117642,13-10-2026,East,Monitor Arm,1,189.00,completed
+ORD-117643,2026-10-28,North,Keyboard,1,129.00,completed
+ORD-117669,2026-10-20,South,Desk Lamp,3,59.90,completed
+ORD-117698,2026-10-29,SOUTH ,Desk Lamp,1,59.90,completed
+ORD-117701,2026-10-10,North,Monitor Arm,1,189.00,completed
+ORD-117713,2026-10-28,East,Desk Lamp,3,59.90,completed
+ORD-117717,2026-10-22,West,Mouse,2,49.00,completed
+ORD-117720,2026-10-14,North,Mouse,2,49.00,completed
+ORD-117786,2026-10-26,South,USB-C Dock,1,279.00,completed
+ORD-117791,2026-10-10,South,Notebook Pack,1,12.50,completed
+ORD-117803,2026-10-01,North,Desk Lamp,3,59.90,completed
+ORD-117810,2026-10-15,South,USB-C Dock,1,279.00,completed
+ORD-117813,10-10-2026,East,Cable Kit,1,24.00,completed
+ORD-117880,2026-10-24,North,Headset,3,159.00,completed
+ORD-117894,2026-10-12,West,Notebook Pack,3,12.50,completed
+ORD-117898,2026-10-18,East,Notebook Pack,2,12.50,completed
+ORD-117915,2026-10-05,Central,Desk Lamp,1,59.90,completed
+ORD-117942,2026-10-09,North,Webcam,3,99.00,completed
+ORD-117949,02-10-2026,East,Keyboard,1,129.00,completed
+ORD-117976,2026-10-05,East,Mouse,1,49.00,completed
+ORD-117989,2026-10-13,South,Monitor Arm,4,189.00,completed
+ORD-118017,2026-10-31,West,Notebook Pack,1,12.50,refunded
+ORD-118046,04-10-2026,East,Desk Lamp,3,59.90,cancelled
+ORD-118063,2026-10-13,South,Mouse,3,49.00,completed
+ORD-118070,2026-10-09,West,USB-C Dock,2,279.00,completed
+ORD-118106,2026-10-09,East,Notebook Pack,1,12.50,completed
+ORD-118144,2026-10-09,North,Mouse,1,49.00,completed
+ORD-118150,2026-10-08,North,Notebook Pack,1,12.50,completed
+ORD-118152,2026-10-07,North,Cable Kit,4,24.00,completed
+ORD-118159,2026-10-04,West,Webcam,1,99.00,completed
+ORD-118160,2026-10-23,south,Webcam,3,99.00,completed
+ORD-118166,2026-10-20,North,USB-C Dock,3,279.00,completed
+ORD-118184,2026-10-10,North,Mouse,4,49.00,cancelled
+ORD-118204,2026-10-27,West,USB-C Dock,3,279.00,completed
+ORD-118242,2026-10-15,North,Notebook Pack,2,12.50,completed
+ORD-118279,17-10-2026,East,Mouse,1,49.00,cancelled
+ORD-118315,2026-10-27,North,USB-C Dock,1,279.00,completed
+ORD-118330,2026-10-29,North,Desk Lamp,1,59.90,completed
+ORD-118353,2026-10-13,East,Webcam,4,99.00,completed
+ORD-118359,2026-10-04,North,Webcam,1,99.00,cancelled
+ORD-118401,2026-10-10,East,USB-C Dock,5,279.00,completed
+ORD-118410,2026-10-18,West,Keyboard,1,129.00,refunded
+ORD-118467,2026-10-06,South,Mouse,1,49.00,completed
+ORD-118523,2026-10-28,South,Webcam,4,99.00,completed
+ORD-118528,2026-10-11,East,Standing Desk,1,"1,249.00",completed
+ORD-118546,2026-10-23,E,Cable Kit,5,24.00,completed
+ORD-118559,2026-10-10,N,Keyboard,1,129.00,completed
+ORD-118566,2026-10-31,East,Desk Lamp,2,59.90,completed
+ORD-118569,2026-10-13,North,USB-C Dock,2,279.00,completed
+ORD-118633,2026-10-07,North,Office Chair,1,899.00,completed
+ORD-118638,2026-10-29,North,Keyboard,1,129.00,completed
+ORD-118655,20-10-2026,East,Desk Lamp,1,59.90,completed
+ORD-118658,2026-10-14,North,USB-C Dock,2,279.00,completed
+ORD-118687,2026-10-05,West,Webcam,2,99.00,completed
+ORD-118692,2026-10-21,North,Desk Lamp,1,59.90,completed
+ORD-118732,2026-10-06,East,Mouse,1,49.00,completed
+ORD-118755,25-10-2026,East,Desk Lamp,1,59.90,completed
+ORD-118767,2026-10-04,east,Cable Kit,1,24.00,completed
+ORD-118770,2026-10-20,South,Notebook Pack,1,12.50,completed
+ORD-118772,2026-10-09,East,Monitor Arm,1,189.00,completed
+ORD-118820,2026-10-06,West,Mouse,1,49.00,completed
+ORD-118828,2026-10-18,North,Mouse,3,49.00,completed
+ORD-118849,2026-10-18,East,Keyboard,2,129.00,completed
+ORD-118870,2026-10-28,South,Mouse,5,49.00,completed
+ORD-118871,2026-10-11,East,Mouse,1,49.00,completed
+ORD-118917,2026-10-16,South,Desk Lamp,1,59.90,completed
+ORD-118944,2026-10-21,South,Monitor Arm,2,189.00,cancelled
+ORD-118952,2026-10-24,North,Webcam,2,99.00,completed
+ORD-118953,2026-10-10,South,Keyboard,1,129.00,completed
+ORD-118966,2026-10-27,South,Notebook Pack,3,12.50,completed
+ORD-118968,2026-10-26,North,Desk Lamp,2,59.90,completed
+ORD-118977,2026-10-11,South,Office Chair,1,899.00,completed
+ORD-118986,2026-10-31,East,Cable Kit,1,24.00,cancelled
+ORD-119031,29-10-2026,East,Headset,2,159.00,completed
+ORD-119041,2026-10-01,North,Keyboard,2,129.00,completed
+ORD-119064,2026-10-26,South,Desk Lamp,2,59.90,completed
+ORD-119078,2026-10-02,West,Notebook Pack,1,12.50,completed
+ORD-119079,2026-10-17,East,Monitor Arm,1,189.00,completed
+ORD-109980,2026-10-07,north,Notebook Pack,1,12.50,completed
+ORD-119110,2026-10-14,South,Monitor Arm,2,189.00,completed
+ORD-119131,2026-10-31,West,Keyboard,2,129.00,completed
+ORD-119137,2026-10-20,North,Cable Kit,1,24.00,completed
+ORD-119227,2026-10-19,North,Monitor Arm,1,189.00,completed
+ORD-119250,2026-10-10,South,Mouse,1,49.00,completed
+ORD-119255,2026-10-07,East,Headset,4,159.00,completed
+ORD-119275,2026-10-18,East,Standing Desk,3,"1,249.00",completed
+ORD-119306,2026-10-04,South,Mouse,1,49.00,completed
+ORD-119307,2026-10-13,West,Headset,1,159.00,completed
+ORD-119311,2026-10-25,North,Headset,1,159.00,completed
+ORD-119315,2026-10-04,East,Keyboard,1,129.00,completed
+ORD-119333,2026-10-10,West,Webcam,5,99.00,completed
+ORD-119360,2026-10-24,South,Cable Kit,1,24.00,completed
+ORD-119370,2026-10-31,East,Notebook Pack,1,12.50,completed
+ORD-119377,2026-10-23,East,Mouse,1,49.00,completed
+ORD-119382,2026-10-25,West,Notebook Pack,1,12.50,Cancelled
+ORD-119415,2026-10-30,West,Webcam,2,99.00,completed
+ORD-119418,2026-10-20,North,Webcam,2,99.00,completed
+ORD-119419,2026-10-08,South,USB-C Dock,3,279.00,completed
+ORD-119420,2026-10-01,South,Monitor Arm,2,189.00,completed
+ORD-119478,2026-10-12,North,Office Chair,2,899.00,completed
+ORD-119483,2026-10-03,West,Mouse,2,49.00,completed
+ORD-119484,2026-10-21,West,Notebook Pack,1,12.50,refunded
+ORD-119516,28-10-2026,East,Notebook Pack,1,12.50,completed
+ORD-119520,2026-10-05,South,Headset,2,159.00,completed
+ORD-119540,2026-10-12,North,Headset,1,159.00,completed
+ORD-119548,11-10-2026,East,Notebook Pack,2,12.50,completed
+ORD-119550,2026-10-06,North,Webcam,2,99.00,completed
+ORD-119587,2026-10-28,East,Mouse,2,49.00,completed
+ORD-119636,2026-10-05,North,Keyboard,1,129.00,completed
+ORD-119637,2026-10-18,North,Headset,1,159.00,completed
+ORD-119700,2026-10-25,North,Whiteboard,4,349.00,completed
+ORD-119710,2026-10-28,West,Monitor Arm,1,189.00,completed
+ORD-119769,2026-10-18,West,Desk Lamp,1,59.90,completed
+ORD-119789,2026-10-03,South,Keyboard,1,129.00,completed
+ORD-119811,2026-10-20,North,Keyboard,1,129.00,completed
+ORD-119865,2026-10-23,East,Desk Lamp,3,59.90,refunded
+ORD-119873,2026-10-30,South,Keyboard,2,129.00,completed
+ORD-119904,2026-10-26,North,Whiteboard,3,349.00,completed
+ORD-119920,27-10-2026,East,Cable Kit,1,24.00,completed
+ORD-119928,2026-10-23,West,Standing Desk,2,"1,249.00",completed
+ORD-119941,2026-10-06,North,Monitor Arm,5,189.00,completed
+ORD-119953,2026-10-20,North,USB-C Dock,2,279.00,completed
+ORD-119970,2026-10-10,West,Desk Lamp,2,59.90,completed
+ORD-119988,10-10-2026,East,Office Chair,2,899.00,completed

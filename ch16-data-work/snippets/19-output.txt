@@ -1,0 +1,3 @@
+region     4 values  str    1036 KiB  category    20 KiB
+product   12 values  str    1122 KiB  category    20 KiB
+status     3 values  str    1121 KiB  category    20 KiB

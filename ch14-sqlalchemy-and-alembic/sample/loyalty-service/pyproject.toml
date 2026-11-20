@@ -1,0 +1,42 @@
+[project]
+name = "loyalty-service"
+version = "1.0.0"
+description = "Customer loyalty points: SQLAlchemy 2.1 and Alembic, the sample project for Chapter 14"
+requires-python = ">=3.12"
+dependencies = [
+    "sqlalchemy[asyncio]>=2.1,<2.2",
+    "asyncpg>=0.32",
+    "alembic>=1.20",
+    "psycopg[binary]>=3.3",
+]
+
+[dependency-groups]
+dev = ["pytest>=9", "pytest-asyncio>=1.4", "ruff>=0.16", "mypy>=1.19"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+addopts = ["--strict-markers"]
+
+[tool.mypy]
+strict = true
+files = ["loyalty", "tools", "tests", ".claude/hooks"]
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "S", "D", "RUF"]
+ignore = ["D105", "D107"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S101", "S603", "D"]
+"migrations/versions/*" = ["D103"]
+".claude/hooks/*" = ["S603"]  # runs the project's own checker
+"tools/*" = []
+
+[tool.ruff.lint.isort]
+known-first-party = ["loyalty", "tools"]

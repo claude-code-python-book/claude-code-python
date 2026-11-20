@@ -1,0 +1,13 @@
+{
+  "session_id": "abc123",
+  "transcript_path": "~/.claude/projects/.../abc123.jsonl",
+  "cwd": "/home/dev/invoicer",
+  "permission_mode": "default",
+  "hook_event_name": "PreToolUse",
+  "tool_name": "Bash",
+  "tool_input": {
+    "command": "git push --force origin main",
+    "description": "Force-push the rebased branch"
+  },
+  "tool_use_id": "toolu_01ABC123"
+}

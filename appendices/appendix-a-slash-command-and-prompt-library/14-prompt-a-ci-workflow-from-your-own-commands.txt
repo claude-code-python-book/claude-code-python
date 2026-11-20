@@ -1,0 +1,4 @@
+Write .github/workflows/ci.yml for this project. Run the commands in the
+Commands section of CLAUDE.md. Use these action versions and no others:
+<pinned versions>. Read-only permissions and a timeout on every job.
+Then run each command locally and show me the output.

@@ -1,0 +1,2 @@
+src/bookfinder/search.py:24:9: S608 Possible SQL injection vector through string-based query construction
+Found 1 error.

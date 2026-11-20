@@ -1,0 +1,7 @@
+$ mypy
+src/bookshop/ratings.py:31: error: Incompatible return value type (got "None", expected "float")  [return-value]
+src/bookshop/main.py:19: error: Argument 1 to "ReviewService" has incompatible type "Callable[[], SqlUnitOfWork]"; expected "Callable[[], UnitOfWork]"  [arg-type]
+src/bookshop/main.py:19: error: Incompatible return value type (got "SqlUnitOfWork", expected "UnitOfWork")  [return-value]
+src/bookshop/main.py:19: note: Following member(s) of "SqlUnitOfWork" have conflicts:
+src/bookshop/main.py:19: note:     reviews: expected "ReviewRepository", got "SqlReviewRepository"
+Found 3 errors in 2 files (checked 10 source files)

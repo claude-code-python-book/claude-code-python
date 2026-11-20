@@ -1,0 +1,5 @@
+draft_clean.py:5:15: PD002 `inplace=True` should be avoided; it has inconsistent behavior
+draft_clean.py:10:24: PD002 `inplace=True` should be avoided; it has inconsistent behavior
+draft_clean.py:11:12: PD011 Use `.to_numpy()` or `.array` instead of `.values`
+Found 3 errors.
+No fixes available (2 hidden fixes can be enabled with the `--unsafe-fixes` option).

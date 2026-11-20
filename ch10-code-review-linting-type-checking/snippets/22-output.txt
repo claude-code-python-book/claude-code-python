@@ -1,0 +1,2 @@
+['ap@acme.test', 'billing@globex.test', 'ap@acme.test']
+SQL statements run: 3

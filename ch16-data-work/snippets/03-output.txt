@@ -1,0 +1,3 @@
+nb/notebooks/explore-before.ipynb:cell 2:1:17: F401 [*] `numpy` imported but unused
+Found 1 error.
+[*] 1 fixable with the `--fix` option.

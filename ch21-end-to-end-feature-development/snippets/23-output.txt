@@ -1,0 +1,6 @@
+$ docker build --check .
+Check complete, no warnings found.
+.github/workflows/ci.yml: valid
+.claude/settings.json: valid
+chart/bookshop renders 5 objects, all valid against Kubernetes v1.37.2 schemas (strict):
+  ConfigMap bookshop, Deployment bookshop-web, Job bookshop-migrate, Service bookshop, Deployment bookshop-worker

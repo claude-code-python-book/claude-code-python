@@ -1,0 +1,2 @@
+token_type.py:4:45: S106 Possible hardcoded password assigned to argument: "token_type"
+Found 1 error.

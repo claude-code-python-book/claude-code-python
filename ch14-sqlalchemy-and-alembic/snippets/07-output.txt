@@ -1,0 +1,3 @@
+ERROR:  duplicate key value violates unique constraint "uq_points_entries_earn_order"
+ERROR:  new row for relation "loyalty_accounts" violates check constraint "ck_loyalty_accounts_balance_not_negative"
+ERROR:  new row for relation "points_entries" violates check constraint "ck_points_entries_sign_matches_kind"

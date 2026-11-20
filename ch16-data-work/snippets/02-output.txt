@@ -1,0 +1,15 @@
+--- cell 3 (dtypes)
+order_id        str
+order_date      str
+region          str
+product         str
+quantity      int64
+unit_price      str
+status          str
+dtype: object
+--- cell 5 (dates)
+order_date
+10    966
+2       5
+1       5
+Name: count, dtype: int64

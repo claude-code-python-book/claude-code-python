@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv run pytest:*)",
+      "Bash(uv run ruff:*)",
+      "Bash(uv run mypy:*)",
+      "Bash(uv run --group security bandit:*)"
+    ],
+    "ask": [
+      "Bash(uv add:*)",
+      "Bash(uv lock:*)",
+      "Bash(uv run --group security pip-audit:*)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)"
+    ]
+  }
+}

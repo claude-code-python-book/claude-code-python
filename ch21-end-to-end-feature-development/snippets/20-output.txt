@@ -1,0 +1,2 @@
+ERROR:  new row for relation "reviews" violates check constraint "ck_reviews_stars"
+ERROR:  duplicate key value violates unique constraint "uq_reviews_book_user"

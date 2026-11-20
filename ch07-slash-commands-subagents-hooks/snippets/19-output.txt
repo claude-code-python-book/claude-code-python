@@ -1,0 +1,4 @@
+src/invoicer/fees.py:5:38: F821 Undefined name `dayz`
+Found 1 error.
+Fix these Ruff errors in the file you just edited.
+exit 2

@@ -1,0 +1,9 @@
+Python 3.13.18, GIL enabled: True, CPUs: 2
+2 CPU-bound jobs
+  one after another      0.80 s
+  2 threads              0.88 s
+  2 processes            0.48 s
+10 I/O waits of 0.2 s
+  one after another      2.00 s
+  10 threads             0.20 s
+  asyncio.gather         0.20 s

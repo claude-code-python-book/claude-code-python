@@ -1,0 +1,20 @@
+_________________________ test_last_batch_may_be_short _________________________
+rows = range(0, 7), size = 3, exact = False
+
+    def batch_rows[T](
+        rows: Iterable[T], size: int, *, exact: bool = False
+    ) -> Iterator[tuple[T, ...]]:
+        """Yield tuples of ``size`` rows; with ``exact=True`` all must be full."""
+        if size < 1:
+            raise ValueError("size must be at least 1")
+>       return batched(rows, size, strict=exact)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       TypeError: batched() takes at most 2 arguments (3 given)
+
+src/rowbatch/batching.py:13: TypeError
+...
+=========================== short test summary info ============================
+FAILED tests/test_batching.py::test_last_batch_may_be_short - TypeError: batc...
+FAILED tests/test_batching.py::test_exact_accepts_full_batches - TypeError: b...
+... (4 more)
+========================= 6 failed, 2 passed in 0.04s ==========================

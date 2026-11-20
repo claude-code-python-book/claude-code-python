@@ -1,0 +1,10 @@
+Acme Ltd: billed 188.18, outstanding 142.50
+Brandt GmbH: billed 235.74, outstanding 242.82
+Coastal Inc: billed 1075.13, outstanding 1182.38
+Deccan Traders: billed 386.70, outstanding 20.06
+Elbe AG: billed 11.92, outstanding 0.02
+Grand total: 2012.00
+row 12: sku: String should have at least 1 character
+...
+row 25: qty: Value error, must be a whole number
+exit 1

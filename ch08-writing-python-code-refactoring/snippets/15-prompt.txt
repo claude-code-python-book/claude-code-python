@@ -1,0 +1,7 @@
+Refactor 2: replace the dictionaries in billing_run.py. Validate each
+export row with a Pydantic model in a new src/invoicer/billing_models.py,
+and use dataclasses for invoices, bills and customer totals. Keep
+run_billing's return value exactly as it is. Error messages may change
+wording, but the same rows must be rejected and every number must stay
+the same. After the change, regenerate the golden files and show me the
+golden diff.

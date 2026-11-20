@@ -1,0 +1,15 @@
+[tool.ruff.lint]
+select = [
+    "E", "F", "I", "UP", "B",  # the Chapter 5 baseline
+    "S",       # flake8-bandit: security
+    "ASYNC",   # blocking calls in async code
+    "BLE",     # blind `except Exception`
+    "PGH",     # blanket `# type: ignore` and `# noqa`
+    "C90",     # McCabe complexity
+    "ANN401",  # `Any` in annotations
+    "RUF100",  # `# noqa` comments that no longer suppress anything
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S101", "S603", "S607", "ANN401"]
+".claude/hooks/*" = ["S603", "S607"]

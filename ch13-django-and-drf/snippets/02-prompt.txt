@@ -1,0 +1,6 @@
+Plan bookings-site: Django 6.1, DRF 3.18, PostgreSQL. Users book rooms
+by time. Rules: 08:00-20:00, 15-minute slots, 30 minutes to 4 hours,
+up to 90 days ahead, no more people than the room holds, cancel up to
+24 hours before. No double bookings, even under concurrent requests.
+Put the rules in a plain-Python module the model and serializer both
+call. List the models, constraints, endpoints and tests. No code yet.

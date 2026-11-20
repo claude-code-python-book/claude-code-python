@@ -1,0 +1,25 @@
+@@ -2,2 +2,3 @@
+ 
++import csv
+ import os
+@@ -6,2 +7,3 @@ from datetime import date
+ from decimal import ROUND_HALF_UP, Decimal
++from pathlib import Path
+ from typing import TypedDict
+@@ -135,8 +137,9 @@ def write_report(
+ ) -> None:
+-    path = os.path.join(report_dir, "customers.csv")
+-    f = open(path, "w")
+-    f.write("customer,invoices,billed,fees,outstanding\n")
+-    for name in sorted(customers):
+-        t = customers[name]
+-        f.write(f"{name},{t.invoices},{t.billed},{t.fees},{t.outstanding}\n")
+-    f.close()
++    path = Path(report_dir) / "customers.csv"
++    with path.open("w", newline="", encoding="utf-8") as f:
++        writer = csv.writer(f, lineterminator="\n")
++        writer.writerow(["customer", "invoices", "billed", "fees", "outstanding"])
++        writer.writerows(
++            [name, t.invoices, t.billed, t.fees, t.outstanding]
++            for name, t in sorted(customers.items())
++        )

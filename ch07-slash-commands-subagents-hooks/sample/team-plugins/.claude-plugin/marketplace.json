@@ -1,0 +1,12 @@
+{
+  "name": "invoicer-team",
+  "description": "Claude Code plugins for the invoicer team",
+  "owner": { "name": "Invoicer Team" },
+  "plugins": [
+    {
+      "name": "python-workflows",
+      "source": "./plugins/python-workflows",
+      "description": "Python slash commands, subagents and hooks"
+    }
+  ]
+}

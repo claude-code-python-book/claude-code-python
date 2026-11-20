@@ -1,0 +1,1 @@
+description: Writes pytest unit tests for a Python module, covering normal cases, edge cases and error paths, then checks and runs them. Use when the user asks to write, add or generate tests, or to improve test coverage for Python code.

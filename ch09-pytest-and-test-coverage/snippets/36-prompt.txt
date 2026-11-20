@@ -1,0 +1,2 @@
+/generate-tests src/invoicer/billing.py::late_fee add the boundaries
+of each 30-day period and of the 10% cap to the parametrized table

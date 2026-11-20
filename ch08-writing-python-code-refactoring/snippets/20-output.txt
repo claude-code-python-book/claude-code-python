@@ -1,0 +1,7 @@
+src/invoicer/billing_run.py:18: error: Function is missing a type annotation  [no-untyped-def]
+src/invoicer/billing_run.py:19: error: Call to untyped function "collect_invoices" in typed context  [no-untyped-call]
+src/invoicer/billing_run.py:21: error: Call to untyped function "bill_invoice" in typed context  [no-untyped-call]
+...
+tests/test_billing_characterization.py:22: error: Call to untyped function "run_billing" in typed context  [no-untyped-call]
+tests/test_billing_characterization.py:28: error: Call to untyped function "run_billing" in typed context  [no-untyped-call]
+Found 22 errors in 2 files (checked 20 source files)

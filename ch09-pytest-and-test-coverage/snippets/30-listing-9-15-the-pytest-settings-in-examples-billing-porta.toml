@@ -1,0 +1,6 @@
+[dependency-groups]
+dev = ["pytest>=9", "pytest-django>=4.14"]
+
+[tool.pytest]
+DJANGO_SETTINGS_MODULE = "config.settings"
+pythonpath = ["."]

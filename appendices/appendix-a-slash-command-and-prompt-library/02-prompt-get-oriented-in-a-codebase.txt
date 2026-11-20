@@ -1,0 +1,2 @@
+Give me an overview of this codebase. Then explain how <a main flow>
+works from <input> to <output>, and which tests cover it.

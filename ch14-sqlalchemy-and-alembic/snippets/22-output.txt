@@ -1,0 +1,8 @@
+        statement        |           lock           
+-------------------------+--------------------------
+ SELECT                  | AccessShareLock
+ ADD COLUMN              | AccessExclusiveLock
+ SET NOT NULL            | AccessExclusiveLock
+ CREATE INDEX            | ShareLock
+ ADD CHECK ... NOT VALID | AccessExclusiveLock
+ VALIDATE CONSTRAINT     | ShareUpdateExclusiveLock

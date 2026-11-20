@@ -1,0 +1,3 @@
+Rewrite write_report with pathlib, a with-statement and csv.writer. Keep
+the output byte-for-byte the same for the sample, including "\n" line
+endings. Add a test with a customer name that contains a comma.

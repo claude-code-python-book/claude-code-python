@@ -1,0 +1,4 @@
+draft_models.py:4:7: DJ008 Model does not define `__str__` method
+draft_models.py:8:5: DJ012 Order of model's inner classes, methods, and fields does not follow the Django Style Guide: field declaration should come before `Meta` class
+draft_models.py:9:13: DJ001 Avoid using `null=True` on string-based fields such as `TextField`
+Found 3 errors.

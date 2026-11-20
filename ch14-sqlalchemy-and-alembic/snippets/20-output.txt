@@ -1,0 +1,9 @@
+batch    1-500   UPDATE 500
+batch  501-1000  UPDATE 500
+batch 1001-1500  UPDATE 500
+batch 1501-2000  UPDATE 500
+  tier  | count 
+--------+-------
+ silver |  1329
+ bronze |   660
+ gold   |    11

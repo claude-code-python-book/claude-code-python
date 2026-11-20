@@ -1,0 +1,3 @@
+FAILED tests/test_cart.py::test_total_with_discount
+    assert cart.total() == 225.0
+E   assert 240.0 == 225.0

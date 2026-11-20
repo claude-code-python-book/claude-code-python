@@ -1,0 +1,7 @@
+examples/test_bad.py: 6 problems in 3 tests
+  line 5: test_discount: no assert or pytest.raises, so it can never fail
+  line 9: test_discount: duplicate name; replaces the test on line 5, which will never run
+  line 10: test_discount: 'assert True' always passes
+  line 12: test_negative_price: no assert or pytest.raises, so it can never fail
+  line 13: test_negative_price: time.sleep slows the suite; mock time instead
+  line 16: test_negative_price: bare 'except:' hides real failures

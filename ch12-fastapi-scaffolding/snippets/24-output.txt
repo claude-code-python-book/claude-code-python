@@ -1,0 +1,9 @@
+HTTP 404
+content-type: application/problem+json
+{
+  "type": "about:blank",
+  "title": "Order not found",
+  "status": 404,
+  "detail": "Order 42 does not exist.",
+  "instance": "/orders/42"
+}

@@ -1,0 +1,5 @@
+ 0.00 s  handler: order saved, returning 201
+ 0.00 s  server: status 201 sent
+ 0.00 s  server: response body complete, client has its answer
+ 0.50 s  background task: email for order 1042 sent
+ 0.50 s  server: request finished

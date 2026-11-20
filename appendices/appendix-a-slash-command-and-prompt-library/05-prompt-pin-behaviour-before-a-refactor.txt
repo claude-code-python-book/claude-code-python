@@ -1,0 +1,3 @@
+Before we refactor <module>, pin its current behaviour. Add sample data
+that exercises every branch of <function>, and a characterization test
+that compares the full result with golden files. Don't change <module>.

@@ -1,0 +1,12 @@
+claude \
+  --output-format stream-json \
+  --verbose \
+  --system-prompt 'You are a code reviewer for a Python repository. ...' \
+  --tools Read,Grep,Glob \
+  --allowedTools mcp__review__changed_files,mcp__review__file_diff,mcp__review__record_finding \
+  --max-turns 30 \
+  --max-budget-usd 0.5 \
+  --permission-prompt-tool stdio \
+  --mcp-config '{"mcpServers": {"review": {"type": "sdk", "name": "review"}}}' \
+  --setting-sources= \
+  --input-format stream-json

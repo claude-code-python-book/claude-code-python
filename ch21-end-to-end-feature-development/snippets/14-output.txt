@@ -1,0 +1,5 @@
+exit code 2 (blocks the stop); stderr goes to Claude:
+The test suite fails:
+FAILED test_x.py::test_x - assert (0.1 + 0.2) == 0.3
+1 failed in 0.01s
+Fix the code or the tests before you finish.

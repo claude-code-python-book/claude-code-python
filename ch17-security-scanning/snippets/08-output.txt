@@ -1,0 +1,3 @@
+vulnerable/search_v1.py:6:9: S608 Possible SQL injection vector through string-based query construction
+vulnerable/search_v2.py:7:9: S608 Possible SQL injection vector through string-based query construction
+Found 2 errors.

@@ -1,0 +1,6 @@
+13	D103	undocumented-public-function
+ 4	D102	undocumented-public-method
+ 2	D101	undocumented-public-class
+ 2	D100	undocumented-public-module
+ 1	D104	undocumented-public-package
+Found 22 errors.

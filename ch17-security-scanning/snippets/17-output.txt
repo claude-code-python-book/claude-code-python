@@ -1,0 +1,3 @@
+naive fetch -> internal admin: db_password=example
+check_url   -> scheme not allowed: 'http'
+check_url   -> host not allowed: '169.254.169.254'

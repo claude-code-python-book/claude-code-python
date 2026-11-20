@@ -1,0 +1,3 @@
+{
+  "systemMessage": "Tests still fail after Claude's retry. Run: uv run pytest -q"
+}

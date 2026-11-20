@@ -1,0 +1,4 @@
+migrations/versions/0006_rename_customer_name.py:16: MIG003 NOT NULL with no server_default fails on a table that has rows
+migrations/versions/0006_rename_customer_name.py:20: MIG001 CREATE INDEX blocks writes until it ends; use postgresql_concurrently=True
+migrations/versions/0006_rename_customer_name.py:21: MIG007 a contract step: ship it after no running code uses it
+exit 1

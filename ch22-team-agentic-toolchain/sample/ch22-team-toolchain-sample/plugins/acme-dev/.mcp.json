@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "acme-tracker": {
+      "type": "http",
+      "url": "${user_config.broker_url}"
+    }
+  }
+}

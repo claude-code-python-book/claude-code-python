@@ -1,0 +1,8 @@
+[tool.coverage.run]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+exclude_also = ['if __name__ == .__main__.:']
+fail_under = 90

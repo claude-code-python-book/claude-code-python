@@ -1,0 +1,9 @@
+-- no lock
+request 1: read balance 1000, redeemed 600
+request 2: read balance 1000, redeemed 600
+balance 400, ledger total -200
+
+-- FOR UPDATE
+request 1: read balance 1000, redeemed 600
+request 2: read balance 400, refused
+balance 400, ledger total 400

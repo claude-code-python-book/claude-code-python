@@ -1,0 +1,4 @@
+order_id,order_date,region,product,quantity,unit_price,status,reason
+ORD-100183,2026-10-09,Central,Headset,1,159.00,completed,"region: Input should be 'North', 'South', 'East' or 'West'"
+ORD-100285,2026-10-11,Central,Monitor Arm,1,189.00,completed,"region: Input should be 'North', 'South', 'East' or 'West'"
+ORD-100349,2026-10-22,North,Webcam,0,99.00,completed,quantity: Input should be greater than 0

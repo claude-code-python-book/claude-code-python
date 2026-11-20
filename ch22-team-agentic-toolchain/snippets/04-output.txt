@@ -1,0 +1,5 @@
+$ claude mcp list
+Checking MCP server health…
+
+tracker-oauth: http://127.0.0.1:8772/mcp (HTTP) - ! Needs authentication
+tracker-alice: http://127.0.0.1:8772/mcp (HTTP) - √ Connected

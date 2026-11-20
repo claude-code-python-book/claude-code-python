@@ -1,0 +1,4 @@
+.claude/hooks/format_python.py:17:12: S603 `subprocess` call: check for execution of untrusted input
+.claude/hooks/pytest_gate.py:22:13: S607 Starting a process with a partial executable path
+.claude/hooks/pytest_gate.py:41:18: S603 `subprocess` call: check for execution of untrusted input
+Found 3 errors.

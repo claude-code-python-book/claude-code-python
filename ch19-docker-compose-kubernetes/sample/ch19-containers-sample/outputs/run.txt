@@ -1,0 +1,8 @@
+$ docker run -d --name web -p 8000:8000 catalog:1.0.0
+GET /         -> 200 {"service":"catalog","host":"6430001b9686","pid":1}
+GET /healthz  -> 200 {"status":"ok"}
+GET /readyz   -> 503 {"ready":false,"checks":{"database":false,"redis":false}}
+$ docker exec web id
+uid=999(app) gid=999(app) groups=999(app)
+$ docker exec web uv --version
+... exec: "uv": executable file not found in $PATH

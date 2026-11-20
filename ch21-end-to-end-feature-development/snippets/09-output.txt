@@ -1,0 +1,19 @@
+$ python -m trace --count --summary --missing -C cov \
+      --module pytest -q tests/unit
+lines   cov%   module
+   31    83%   ratings
+   47    85%   service
+
+Lines that never ran:
+ratings.py:19  raise InvalidRating(f"stars must be {MIN_STARS}-{MAX_STARS}, got {stars!r}")
+ratings.py:35  return None
+ratings.py:44  was_low = (before.count >= ALERT_MIN_REVIEWS and before.average is not None
+ratings.py:45  and before.average < ALERT_BELOW)
+ratings.py:46  return after.average < ALERT_BELOW and not was_low
+service.py:51  raise ValueError(f"comment longer than {MAX_COMMENT} characters")
+service.py:54  raise BookNotFound(book_id)
+service.py:61  self._queue.low_rating_alert(book_id)   # only after the commit
+service.py:65  with self._uow() as uow:
+service.py:66  if not uow.reviews.book_exists(book_id):
+service.py:67  raise BookNotFound(book_id)
+service.py:68  return uow.reviews.summary(book_id)

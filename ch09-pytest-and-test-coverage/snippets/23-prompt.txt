@@ -1,0 +1,2 @@
+Turn the fee tests in tests/test_late_fee.py that share a shape into one
+parametrized test with readable ids. Keep the rounding test separate.

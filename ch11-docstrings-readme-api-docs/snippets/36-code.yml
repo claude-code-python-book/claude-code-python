@@ -1,0 +1,2 @@
+      - run: uv run pyright
+      - run: uv run --group docs mkdocs build --strict

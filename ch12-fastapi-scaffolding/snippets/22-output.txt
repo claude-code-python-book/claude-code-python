@@ -1,0 +1,7 @@
+tests/test_service.py::test_place_creates_a_pending_order_for_the_customer PASSED [ 16%]
+tests/test_service.py::test_another_customers_order_looks_like_a_missing_one PASSED [ 33%]
+tests/test_service.py::test_a_paid_order_can_be_cancelled PASSED         [ 50%]
+tests/test_service.py::test_a_finished_order_cannot_be_cancelled[shipped] PASSED [ 66%]
+tests/test_service.py::test_a_finished_order_cannot_be_cancelled[cancelled] PASSED [ 83%]
+tests/test_service.py::test_page_is_newest_first_and_filters_by_status PASSED [100%]
+============================== 6 passed in 0.02s ===============================

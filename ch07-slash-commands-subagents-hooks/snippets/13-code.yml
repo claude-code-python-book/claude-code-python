@@ -1,0 +1,7 @@
+---
+description: Review Python changes in a read-only subagent.
+argument-hint: <files to review>
+disable-model-invocation: true
+context: fork
+agent: code-reviewer
+---

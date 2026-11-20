@@ -1,0 +1,16 @@
+Help on function reminder_emails in invoicer.reminders:
+
+invoicer.reminders.reminder_emails = reminder_emails(
+    db: sqlite3.Connection,
+    invoice_ids: collections.abc.Sequence[str]
+) -> dict[str, str]
+    Return the customer email for each invoice id, with one query.
+
+    Args:
+        db: A connection with `invoices` and `customers` tables.
+        invoice_ids: The invoices to look up. Duplicates are allowed.
+
+    Returns:
+        A dict from invoice id to email. An id with no matching invoice or
+        customer is left out, so compare the keys with `invoice_ids` to find
+        the missing ones.

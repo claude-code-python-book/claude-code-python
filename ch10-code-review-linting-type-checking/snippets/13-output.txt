@@ -1,0 +1,8 @@
+src/invoicer/csv_rows.py
+  src/invoicer/csv_rows.py:26:57 - error: Argument type is partially unknown
+    Argument corresponds to parameter "default" in function "next"
+    Argument type is "list[Unknown]" (reportUnknownArgumentType)
+  src/invoicer/csv_rows.py:38:13 - error: Type of "append" is partially unknown
+    Type of "append" is "(object: Unknown, /) -> None" (reportUnknownMemberType)
+  src/invoicer/csv_rows.py:39:12 - error: Return type, "list[Unknown]", is partially unknown (reportUnknownVariableType)
+3 errors, 0 warnings, 0 informations

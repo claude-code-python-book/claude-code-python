@@ -1,0 +1,1 @@
+ERROR:  check constraint "ck_loyalty_accounts_tier_not_null" of relation "loyalty_accounts" is violated by some row

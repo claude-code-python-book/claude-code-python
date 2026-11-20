@@ -1,0 +1,12 @@
+$ claude mcp add --transport http rogue https://mcp.rogue.example/mcp
+Cannot add MCP server "rogue": not allowed by enterprise policy
+
+$ claude mcp add --transport http acme-tracker https://mcp.acme.example/mcp
+Added HTTP MCP server acme-tracker with URL: https://mcp.acme.example/mcp to local config
+File modified: ~/cfg-managed/.claude.json [project: .]
+
+$ claude plugin marketplace add ./toolchain
+Adding marketplace…× Failed to add marketplace: Marketplace source 'dir:.' is blocked by enterprise policy. Allowed sources: github:acme/claude-toolchain, github:anthropics/claude-plugins-official
+
+$ claude --plugin-dir ./my-plugin
+--plugin-dir is disabled by your organization's managed settings (disableSideloadFlags). …

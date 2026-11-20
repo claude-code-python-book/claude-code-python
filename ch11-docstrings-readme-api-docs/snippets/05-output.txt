@@ -1,0 +1,4 @@
+numpy_style.py:22:5: D416 [*] Section name should end with a colon ("Returns")
+numpy_style.py:28:5: D416 [*] Section name should end with a colon ("Raises")
+Found 2 errors.
+[*] 2 fixable with the `--fix` option.

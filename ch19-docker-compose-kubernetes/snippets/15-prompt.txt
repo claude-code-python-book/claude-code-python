@@ -1,0 +1,5 @@
+Write Kubernetes manifests for catalog in k8s/: a Deployment with 2
+replicas, a Service on port 80, a ConfigMap for REDIS_URL, and a Job that
+runs `alembic upgrade head`. Follow the container rules in CLAUDE.md and
+use /healthz for liveness and /readyz for readiness. Then validate every
+file against the Kubernetes API schemas in strict mode and show me the result.

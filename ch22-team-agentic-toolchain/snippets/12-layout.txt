@@ -1,0 +1,12 @@
+acme/claude-toolchain/
+├── .claude-plugin/marketplace.json     the catalog: which plugins, where
+├── plugins/acme-dev/
+│   ├── .claude-plugin/plugin.json      name, version, userConfig
+│   ├── skills/implement/SKILL.md       /acme-dev:implement
+│   ├── skills/pr/SKILL.md              /acme-dev:pr
+│   ├── agents/reviewer.md              acme-dev reviewer subagent
+│   ├── hooks/hooks.json                PreToolUse guard
+│   ├── scripts/guard.py
+│   └── .mcp.json                       acme-tracker, via the broker
+├── broker/                             the credential broker (Section 4)
+└── managed/managed-settings.json       the fleet policy (Section 7)

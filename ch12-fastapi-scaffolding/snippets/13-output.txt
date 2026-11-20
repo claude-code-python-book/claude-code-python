@@ -1,0 +1,2 @@
+src/orders/schemas_draft.py:64: error: Decorators on top of @property are not supported  [prop-decorator]
+Found 1 error in 1 file (checked 1 source file)

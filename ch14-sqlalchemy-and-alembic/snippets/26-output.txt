@@ -1,0 +1,6 @@
+    function     | volatility 
+-----------------+------------
+ now             | stable
+ clock_timestamp | volatile
+ gen_random_uuid | volatile
+ random          | volatile

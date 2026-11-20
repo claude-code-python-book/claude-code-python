@@ -1,0 +1,1 @@
+ERROR:  CREATE INDEX CONCURRENTLY cannot run inside a transaction block

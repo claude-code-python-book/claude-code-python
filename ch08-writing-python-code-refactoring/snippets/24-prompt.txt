@@ -1,0 +1,4 @@
+Do the rename in one commit: git mv the module to billing.py, rename the
+function, and update every reference you listed. Run the tests and
+mypy. Then, in a second commit, add a billing_run.py that keeps
+run_billing working with a DeprecationWarning.

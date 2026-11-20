@@ -1,0 +1,6 @@
+Add GET /api/rooms/{id}/availability/?date=YYYY-MM-DD. It returns the
+free periods in opening hours that are long enough to book, in local
+time. Put the calculation in rules.py as a pure function and test it
+there first, including bookings stored in UTC and gaps too short to
+book. Then the DRF action and one API test per status code. No model
+change, so no migration.

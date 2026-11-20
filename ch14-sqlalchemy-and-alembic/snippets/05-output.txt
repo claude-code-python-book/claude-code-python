@@ -1,0 +1,7 @@
+bronze  99.99 earns 99 points
+silver  99.99 earns 124 points
+gold    99.99 earns 149 points
+Redeem at least 500 points.
+The balance is only 300 points.
+Points can pay for at most half of an order.
+points expiring on 2026-01-10: 50

@@ -1,0 +1,13 @@
+tests/test_fx.py 
+SETUP    S rates_server
+        tests/test_fx.py::test_fetch_rates_reads_the_rates_service (fixtures used: rates_server) .
+        SETUP    F monkeypatch
+        tests/test_fx.py::test_fetch_rates_keeps_every_digit (fixtures used: monkeypatch) .
+        TEARDOWN F monkeypatch
+tests/test_billing.py 
+        SETUP    F make_row
+        tests/test_billing.py::test_paid_invoice_owes_no_late_fee (fixtures used: make_row) .
+        TEARDOWN F make_row
+TEARDOWN S rates_server
+
+============================== 3 passed in 0.05s ===============================

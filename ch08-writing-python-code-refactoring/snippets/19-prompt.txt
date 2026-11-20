@@ -1,0 +1,5 @@
+Refactor 3: remove the mypy override for invoicer.billing_run in
+pyproject.toml and show me what uv run mypy src tests reports. Then add
+type hints until it passes in strict mode. Give run_billing a TypedDict
+return type, don't use Any, and add a py.typed marker so code that
+installs invoicer can see the types.

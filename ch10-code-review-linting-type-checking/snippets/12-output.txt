@@ -1,0 +1,2 @@
+  src/invoicer/reminders.py:47:35 - error: "strip" is not a known attribute of "None" (reportOptionalMemberAccess)
+17 errors, 0 warnings, 0 informations

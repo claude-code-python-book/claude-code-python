@@ -1,0 +1,3 @@
+We're renaming invoicer.billing_run.run_billing to
+invoicer.billing.summarize_billing. First list every reference: imports,
+calls, strings, mock targets, docs and config. Don't edit anything yet.

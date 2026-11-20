@@ -1,0 +1,6 @@
+v1 ConfigMap catalog
+apps/v1 Deployment catalog-web
+batch/v1 Job catalog-migrate
+v1 Service catalog
+apps/v1 Deployment catalog-worker
+valid against Kubernetes v1.37.2 schemas (strict)

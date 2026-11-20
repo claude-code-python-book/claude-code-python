@@ -1,0 +1,4 @@
+Write README.md for <project>: what it is and who it's for, a quick
+start with real output, a table of development commands from CLAUDE.md,
+and where the rest of the docs live. Run every command you show and
+paste the real output.

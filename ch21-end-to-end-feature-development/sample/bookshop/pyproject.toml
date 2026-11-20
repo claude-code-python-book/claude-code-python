@@ -1,0 +1,66 @@
+[project]
+name = "bookshop"
+version = "1.4.0"
+description = "Bookshop API: FastAPI, SQLAlchemy and Celery"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.163",
+    "sqlalchemy>=2.1",
+    "alembic>=1.20",
+    "psycopg[binary]>=3.3",
+    "celery[redis]>=5.7",
+]
+
+[dependency-groups]
+dev = ["pytest>=9", "pytest-cov", "httpx", "ruff>=0.16", "mypy>=2.3"]
+security = ["bandit[toml]>=1.9.4"]
+
+[tool.fastapi]
+entrypoint = "bookshop.main:app"
+
+[build-system]
+requires = ["uv_build>=0.11,<0.14"]
+build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "tests"]
+testpaths = ["tests"]
+markers = ["integration: needs PostgreSQL (DATABASE_URL)"]
+addopts = "-ra"
+
+[tool.coverage.run]
+branch = true
+source = ["bookshop"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 90
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "S", "RUF"]
+
+[tool.ruff.lint.per-file-ignores]
+".claude/hooks/*" = ["S603", "S607"]  # fixed commands, no user input
+"tests/**" = ["S101", "S603", "S607"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["bookshop"]
+known-local-folder = ["fakes"]
+
+[tool.bandit]
+exclude_dirs = ["tests", ".venv"]
+
+[tool.mypy]
+strict = true
+files = ["src"]
+
+[[tool.mypy.overrides]]
+module = ["celery", "celery.*"]  # Celery ships no type hints
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["bookshop.tasks"]
+disallow_untyped_decorators = false

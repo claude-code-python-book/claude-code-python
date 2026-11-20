@@ -1,0 +1,35 @@
+# Each case: a base file, a change, and the findings a good review must make.
+
+[[case]]
+name = "lost-empty-guard"
+path = "stats.py"
+base = """
+def average(xs: list[float]) -> float:
+    if not xs:
+        return 0.0
+    return sum(xs) / len(xs)
+"""
+change = """
+def average(xs: list[float]) -> float:
+    return sum(xs) / len(xs)
+"""
+expect = [{ line = 2, min_severity = "major", keywords = ["empty", "zero"] }]
+
+[[case]]
+name = "shell-injection"
+path = "deploy.py"
+base = """
+import subprocess
+
+
+def tag(version: str) -> None:
+    subprocess.run(["git", "tag", version], check=True)
+"""
+change = """
+import subprocess
+
+
+def tag(version: str) -> None:
+    subprocess.run(f"git tag {version}", shell=True, check=True)
+"""
+expect = [{ line = 5, min_severity = "critical", keywords = ["shell", "inject"] }]

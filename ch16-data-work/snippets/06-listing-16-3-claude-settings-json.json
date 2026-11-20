@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv run pytest:*)",
+      "Bash(uv run ruff:*)",
+      "Bash(uv run mypy:*)",
+      "Bash(uv run python -m salesreport:*)"
+    ],
+    "ask": [
+      "Bash(uv add:*)"
+    ],
+    "deny": [
+      "Edit(/data/raw/**)",
+      "Read(/data/raw/**)"
+    ]
+  }
+}

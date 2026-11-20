@@ -1,0 +1,4 @@
+<h1>Results for "{{ query }}"</h1>
+<ul>
+{% for book in books %}  <li>{{ book.title }} ({{ book.year }}), {{ book.author }}</li>
+{% endfor %}</ul>

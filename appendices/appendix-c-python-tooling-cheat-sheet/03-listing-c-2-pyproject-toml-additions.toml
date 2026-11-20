@@ -1,0 +1,17 @@
+[dependency-groups]
+dev = ["pytest", "ruff", "mypy"]
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.mypy]
+strict = true
+
+[tool.pytest]
+addopts = ["-ra"]
+strict = true
+testpaths = ["tests"]
+markers = ["slow: takes more than a second"]

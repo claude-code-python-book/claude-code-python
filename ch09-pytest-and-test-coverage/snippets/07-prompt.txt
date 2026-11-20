@@ -1,0 +1,2 @@
+In late_fee, temporarily change ROUND_HALF_UP to ROUND_HALF_EVEN and run
+tests/test_late_fee.py. Show me which tests fail, then undo the change.

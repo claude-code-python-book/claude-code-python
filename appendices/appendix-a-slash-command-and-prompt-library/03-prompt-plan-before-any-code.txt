@@ -1,0 +1,4 @@
+Plan <feature> for <project>: <framework and versions>. Rules: <the
+business rules>. Put the rules in a plain-Python module with no
+framework imports. List the modules, models, constraints, endpoints and
+tests. No code yet.

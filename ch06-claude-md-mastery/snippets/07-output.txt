@@ -1,0 +1,5 @@
+I001 [*] Import block is un-sorted or un-formatted
+ --> src/invoicer/report.py:1:1
+...
+Found 1 error.
+[*] 1 fixable with the `--fix` option.

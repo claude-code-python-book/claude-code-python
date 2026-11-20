@@ -1,0 +1,6 @@
+Write .github/workflows/ci.yml for this project. Run the commands in the
+Commands section of CLAUDE.md. Use actions/checkout v7.0.1,
+astral-sh/setup-uv v10.3.3 and uv 0.13.8, and no other versions. Lint and
+type-check once, then test on Python 3.12, 3.13 and 3.14, plus 3.14 on
+Windows and macOS. Read-only permissions, a timeout on every job, quoted
+versions. Then run each command locally and show me the output.

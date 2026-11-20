@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.env
+CLAUDE.local.md
+.claude/settings.local.json
+notebooks/data/raw/*
+!notebooks/data/raw/.gitkeep
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+mutants/

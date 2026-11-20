@@ -1,0 +1,19 @@
+Python 3.11.18
+utcnow() ok: True
+legacy.py:13: DeprecationWarning: 'cgi' is deprecated and slated for removal in Python 3.13
+  import cgi  # used for cgi.parse_header()
+cgi ok: ('text/html', {'charset': 'utf-8'})
+
+Python 3.12.3
+legacy.py:10: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  stamp = datetime.utcnow()  # naive UTC timestamp
+utcnow() ok: True
+legacy.py:13: DeprecationWarning: 'cgi' is deprecated and slated for removal in Python 3.13
+  import cgi  # used for cgi.parse_header()
+cgi ok: ('text/html', {'charset': 'utf-8'})
+
+Python 3.13.18
+legacy.py:10: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  stamp = datetime.utcnow()  # naive UTC timestamp
+utcnow() ok: True
+ModuleNotFoundError: No module named 'cgi'

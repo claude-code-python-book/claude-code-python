@@ -1,0 +1,4 @@
+HTTP 401
+www-authenticate: Bearer error="invalid_token", error_description="Authentication required", resource_metadata="http://127.0.0.1:8772/.well-known/oauth-protected-resource/mcp"
+authorization_servers: ["http://127.0.0.1:8773/"]
+scopes_supported: ["tracker:read"]

@@ -1,0 +1,22 @@
+from decimal import Decimal
+
+import pytest
+
+from invoicer.billing import late_fee
+
+
+@pytest.mark.parametrize(
+    ("days", "expected"),
+    [
+        pytest.param(31, "1.50", id="first-overdue-day"),
+        pytest.param(61, "3.00", id="second-period"),
+        pytest.param(3650, "10.00", id="capped"),
+    ],
+)
+def test_late_fee_on_a_100_invoice(days: int, expected: str) -> None:
+    assert late_fee(Decimal("100.00"), days) == Decimal(expected)
+
+
+def test_late_fee_rounds_half_up_to_the_cent() -> None:
+    # 3.00 * 1.5% = 0.045: half-up gives 0.05, banker's rounding 0.04
+    assert late_fee(Decimal("3.00"), 31) == Decimal("0.05")

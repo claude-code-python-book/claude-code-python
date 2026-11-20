@@ -1,0 +1,8 @@
+== version 1: f-string for query and sort
+q='pytest'       -> ['Python Testing with pytest']
+q="') OR 1=1 --" -> 6 rows, unpublished: ['100% Coverage, 0% Bugs', 'Untitled sequel']
+q=UNION ...      -> leaked: [('billing', 'sk_live_example_123')]
+== version 2: placeholders for query, f-string for sort
+q=UNION ...      -> []
+sort guess 'pk_' -> first result 'Architecture Patterns with Python'
+sort guess 'sk_' -> first result 'Python Testing with pytest'

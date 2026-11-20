@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "invoicer-team": {
+      "source": {
+        "source": "github",
+        "repo": "your-org/team-plugins"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "python-workflows@invoicer-team": true
+  }
+}

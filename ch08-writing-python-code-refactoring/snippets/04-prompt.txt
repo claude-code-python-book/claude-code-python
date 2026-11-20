@@ -1,0 +1,9 @@
+Add src/invoicer/csv_rows.py with
+read_rows(path: Path, required: Collection[str] = ()) -> list[dict[str, str]].
+It reads CSV exports from our billing system. They come from Excel, so
+they can start with a UTF-8 byte order mark. Strip whitespace around
+header names and values, fill missing trailing values with "", and skip
+rows that have no values at all. Raise ValueError if a required column
+is missing (list every missing column, sorted) or if a row has more
+values than the header. Write tests in tests/test_csv_rows.py with
+tmp_path for each of those cases, then run the tests, Ruff and mypy.

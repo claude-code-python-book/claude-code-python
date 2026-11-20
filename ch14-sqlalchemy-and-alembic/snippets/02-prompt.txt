@@ -1,0 +1,6 @@
+Plan the database layer for loyalty points: SQLAlchemy 2.1 async with
+asyncpg, Alembic, PostgreSQL. Rules: [the four rules above]. Keep the
+rules in a plain-Python module with no SQLAlchemy imports. The ledger
+must be append-only, an order must never earn points twice, and two
+redemptions at the same moment must not overspend. List the tables,
+constraints, functions and tests. No code yet.

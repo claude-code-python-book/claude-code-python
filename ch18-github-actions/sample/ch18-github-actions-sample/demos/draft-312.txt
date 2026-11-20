@@ -1,0 +1,31 @@
+_________________________ test_last_batch_may_be_short _________________________
+
+    def test_last_batch_may_be_short() -> None:
+>       assert list(batch_rows(range(7), 3)) == [(0, 1, 2), (3, 4, 5), (6,)]
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_batching.py:7: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+rows = range(0, 7), size = 3, exact = False
+
+    def batch_rows[T](
+        rows: Iterable[T], size: int, *, exact: bool = False
+    ) -> Iterator[tuple[T, ...]]:
+        """Yield tuples of ``size`` rows; with ``exact=True`` all must be full."""
+        if size < 1:
+            raise ValueError("size must be at least 1")
+>       return batched(rows, size, strict=exact)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       TypeError: batched() takes at most 2 arguments (3 given)
+
+src/rowbatch/batching.py:13: TypeError
+...
+=========================== short test summary info ============================
+FAILED tests/test_batching.py::test_last_batch_may_be_short - TypeError: batc...
+FAILED tests/test_batching.py::test_exact_accepts_full_batches - TypeError: b...
+FAILED tests/test_batching.py::test_exact_rejects_short_last_batch - TypeErro...
+FAILED tests/test_batching.py::test_empty_input_gives_no_batches - TypeError:...
+FAILED tests/test_cli.py::test_cli_reports_batches - TypeError: batched() tak...
+FAILED tests/test_cli.py::test_cli_exact_fails_on_short_batch - TypeError: ba...
+========================= 6 failed, 2 passed in 0.04s ==========================

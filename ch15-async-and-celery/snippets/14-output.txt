@@ -1,0 +1,4 @@
+fetch_estimate_badly   returned 'unknown'
+                       after 0.20 s
+fetch_estimate         raised TimeoutError
+                       after 0.20 s

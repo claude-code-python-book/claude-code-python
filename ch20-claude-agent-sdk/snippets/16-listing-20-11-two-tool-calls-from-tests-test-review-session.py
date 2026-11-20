@@ -1,0 +1,7 @@
+assistant([tool_use("t3", "Read", secret)], "m3"),
+hook("hook_0", "PreToolUse", "Read", secret, "t3", "r-guard"),
+tool_result("t3", "Secret files are off limits.", is_error=True),
+assistant([tool_use("t4", "Read", outside)], "m4"),
+hook("hook_0", "PreToolUse", "Read", outside, "t4"),
+permission("Read", outside, "t4", "r-perm"),
+tool_result("t4", "denied", is_error=True),

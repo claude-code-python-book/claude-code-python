@@ -1,0 +1,72 @@
+name: catalog
+
+x-app-env: &app-env
+  DATABASE_URL: postgresql+psycopg://catalog:${POSTGRES_PASSWORD:?set it in .env}@db:5432/catalog
+  REDIS_URL: redis://redis:6379/0
+
+services:
+  web:
+    build: .
+    image: catalog:1.0.0
+    ports:
+      - "8000:8000"
+    environment:
+      <<: *app-env
+      UVICORN_WORKERS: "2"
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD", "python", "-c",
+             "import urllib.request; urllib.request.urlopen('http://localhost:8000/healthz')"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+    restart: unless-stopped
+
+  migrate:
+    image: catalog:1.0.0
+    command: ["alembic", "upgrade", "head"]
+    environment: *app-env
+    depends_on:
+      db:
+        condition: service_healthy
+
+  worker:
+    image: catalog:1.0.0
+    command: ["celery", "-A", "catalog.tasks", "worker", "--loglevel=INFO"]
+    environment: *app-env
+    depends_on:
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+
+  db:
+    image: postgres:18
+    environment:
+      POSTGRES_USER: catalog
+      POSTGRES_DB: catalog
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set it in .env}
+    volumes:
+      - pgdata:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U catalog -d catalog"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 10s
+
+  redis:
+    image: redis:8
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  pgdata:

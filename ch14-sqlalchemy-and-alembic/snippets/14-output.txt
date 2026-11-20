@@ -1,0 +1,2 @@
+draft_queries.py:5:16: S608 Possible SQL injection vector through string-based query construction
+Found 1 error.

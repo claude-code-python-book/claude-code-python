@@ -1,0 +1,3 @@
+Add a discount_percent field to Line (default 0) and apply it before tax.
+Add tests for it, then run uv run pytest -q, uv run ruff check . and
+uv run mypy src tests, and fix anything that fails.

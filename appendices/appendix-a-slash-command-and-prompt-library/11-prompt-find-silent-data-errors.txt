@@ -1,0 +1,4 @@
+Read <notebook>. Don't change it. List every place where a value could
+be silently wrong: dtypes, date parsing, missing values, text
+categories. For each, say which cell and how you would check it on
+<sample file>.

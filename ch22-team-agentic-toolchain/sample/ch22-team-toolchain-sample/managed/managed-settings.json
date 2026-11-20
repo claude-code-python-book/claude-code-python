@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "strictKnownMarketplaces": [
+    { "source": "github", "repo": "acme/claude-toolchain" },
+    { "source": "github", "repo": "anthropics/claude-plugins-official" }
+  ],
+  "extraKnownMarketplaces": {
+    "acme-tools": {
+      "source": { "source": "github", "repo": "acme/claude-toolchain" },
+      "autoUpdate": true
+    }
+  },
+  "enabledPlugins": { "acme-dev@acme-tools": true },
+  "disableSideloadFlags": true,
+  "allowManagedMcpServersOnly": true,
+  "allowedMcpServers": [
+    { "serverUrl": "https://mcp.acme.example/*" }
+  ],
+  "permissions": {
+    "deny": ["Read(./.env)", "Read(./.env.*)", "Bash(git push --force *)"]
+  },
+  "env": {
+    "CLAUDE_CODE_ENABLE_TELEMETRY": "1",
+    "OTEL_METRICS_EXPORTER": "otlp",
+    "OTEL_EXPORTER_OTLP_ENDPOINT": "https://otel.acme.example:4317"
+  }
+}

@@ -1,0 +1,24 @@
+@@ -35,9 +35,9 @@
+-    "row 12: missing sku",
+-    "row 13: qty is not a whole number",
+-    "row 14: qty must be positive",
+-    "row 15: bad unit_price",
+-    "row 16: unknown region FR",
+-    "row 17: unknown discount WELCOME",
+-    "row 18: bad issued date",
+-    "row 19: bad paid date",
+-    "row 20: paid before issued",
++    "row 12: sku: String should have at least 1 character",
++    "row 13: qty: Value error, must be a whole number",
++    "row 14: qty: Input should be greater than 0",
++    "row 15: unit_price: Input should be a valid decimal",
++    "row 16: region: Input should be 'UK', 'DE', 'US-CA' or 'IN'",
++    "row 17: discount: Input should be '', 'SAVE10' or 'BULK5'",
++    "row 18: issued: Value error, must be a date in YYYY-MM-DD form",
++    "row 19: paid: Value error, must be a date in YYYY-MM-DD form",
++    "row 20: Value error, paid before issued",
+@@ -45,2 +45,2 @@
+-    "row 22: bad unit_price",
+-    "row 25: qty is not a whole number"
++    "row 22: unit_price: Input should be greater than or equal to 0",
++    "row 25: qty: Value error, must be a whole number"
