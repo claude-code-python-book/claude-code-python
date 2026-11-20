@@ -1,5 +1,9 @@
 # Claude Code for Python Developers — Companion Code
 
+```bash
+git clone https://github.com/claude-code-python-book/claude-code-python.git
+```
+
 Code listings, prompts, commands and sample projects from the book *Claude Code for Python Developers* by R.S. Nag, organised chapter by chapter.
 
 - `chNN-.../snippets/` holds every code block from the chapter, exactly as printed and in reading order. Files named `listing-…` are the numbered listings; `output` files are captured command output; `prompt` files are prompts you type into Claude Code.
